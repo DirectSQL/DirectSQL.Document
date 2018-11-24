@@ -1,0 +1,345 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/dev/DirectSQL/DirectSQL/DirectSQL",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.AsyncConnectExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.AsyncConnectExecution.html",
+          "hash": "HTobCkMfdr9MG4uEMo4f3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.AsyncSqlExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.AsyncSqlExecution.html",
+          "hash": "7fKjz+VQS6/UD5xdnxydjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.ConnectExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.ConnectExecution.html",
+          "hash": "EnSJuQPt7P4YDwmRhFQLNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.DB2.DB2Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.DB2.DB2Database.html",
+          "hash": "nLa1OtzZ2Gm7i9v95qrXqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.DB2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.DB2.html",
+          "hash": "PSpVriskXYYkhHteKGCaJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.Database.html",
+          "hash": "lmT5KzyvguLt81hk8EoCYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.DatabaseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.DatabaseException.html",
+          "hash": "+xsXevf7/zPzVk8YrCBwqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.MySql.MySqlDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.MySql.MySqlDatabase.html",
+          "hash": "FRffHUYNCbCvQvVJnDQorA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.MySql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.MySql.html",
+          "hash": "JND5qR284nqLmjb8w8l+uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.Npgsql.NpgsqlDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.Npgsql.NpgsqlDatabase.html",
+          "hash": "b0Pm/SGNs26urfIn6pa4bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.Npgsql.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.Npgsql.html",
+          "hash": "hO/RGIO781t6oNmhw2aPvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.ReadSqlResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.ReadSqlResult.html",
+          "hash": "5hY3OuyYJDPLS0OcB9j4nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.SqlExecution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.SqlExecution.html",
+          "hash": "MPUrpVDuSGccxCIp+Tc2iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.SqlLite.SqlLiteDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.SqlLite.SqlLiteDatabase.html",
+          "hash": "TFqsRvnweITG3mWle+O58Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.SqlLite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.SqlLite.html",
+          "hash": "VY/7+sFp15lpVWd49pMu5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.SqlResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.SqlResult.html",
+          "hash": "71ofWY6V3TsLBE4Rp7bZrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.SqlServer.SqlServerDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.SqlServer.SqlServerDatabase.html",
+          "hash": "Uq5NibRyjHL7zev3TChUYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.SqlServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.SqlServer.html",
+          "hash": "IHAtmOEIQsLKGkl7VlMj9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.html",
+          "hash": "//6jq08kuUbaN//bljvEcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/index.html",
+          "hash": "ffmti6HUkebOK0SRNmh5sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "doc/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/toc.html",
+          "hash": "DsFAavCuTFknaQfsMxAZsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/intro.html",
+          "hash": "Z0f4tT60WL6vXFdDVdxI6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "doc/articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc/index.html",
+          "hash": "xRskNXrDJ394tPjDxV9Vkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "doc/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

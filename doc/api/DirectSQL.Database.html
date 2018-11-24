@@ -1,0 +1,754 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Database
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Database
+   ">
+    <meta name="generator" content="docfx 2.40.2.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DirectSQL.Database">
+  
+  
+  <h1 id="DirectSQL_Database" data-uid="DirectSQL.Database" class="text-break">Class Database
+  </h1>
+  <div class="markdown level0 summary"><p>Database class is entry point of DirectSQL library.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Database</span></div>
+      <div class="level2"><a class="xref" href="DirectSQL.DB2.DB2Database.html">DB2Database</a></div>
+      <div class="level2"><a class="xref" href="DirectSQL.MySql.MySqlDatabase.html">MySqlDatabase</a></div>
+      <div class="level2"><a class="xref" href="DirectSQL.Npgsql.NpgsqlDatabase.html">NpgsqlDatabase</a></div>
+      <div class="level2"><a class="xref" href="DirectSQL.SqlLite.SqlLiteDatabase.html">SqlLiteDatabase</a></div>
+      <div class="level2"><a class="xref" href="DirectSQL.SqlServer.SqlServerDatabase.html">SqlServerDatabase</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DirectSQL.html">DirectSQL</a></h6>
+  <h6><strong>Assembly</strong>: DirectSQL.dll</h6>
+  <h5 id="DirectSQL_Database_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Database</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DirectSQL_Database_CreateConnection_" data-uid="DirectSQL.Database.CreateConnection*"></a>
+  <h4 id="DirectSQL_Database_CreateConnection" data-uid="DirectSQL.Database.CreateConnection">CreateConnection()</h4>
+  <div class="markdown level1 summary"><p>Sub class implements actual method to create a connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract IDbConnection CreateConnection()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_ExecuteNonQuery_" data-uid="DirectSQL.Database.ExecuteNonQuery*"></a>
+  <h4 id="DirectSQL_Database_ExecuteNonQuery_System_String_System_Data_IDbConnection_System_Data_IDbTransaction_" data-uid="DirectSQL.Database.ExecuteNonQuery(System.String,System.Data.IDbConnection,System.Data.IDbTransaction)">ExecuteNonQuery(String, IDbConnection, IDbTransaction)</h4>
+  <div class="markdown level1 summary"><p>Execute a sql like update / insert</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ExecuteNonQuery(string sql, IDbConnection connection, IDbTransaction transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>sql to execute</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>connection to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>transaction to execute sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>affected row count</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_ExecuteNonQuery_" data-uid="DirectSQL.Database.ExecuteNonQuery*"></a>
+  <h4 id="DirectSQL_Database_ExecuteNonQuery_System_String_System_ValueTuple_System_String_System_Object____System_Data_IDbConnection_System_Data_IDbTransaction_" data-uid="DirectSQL.Database.ExecuteNonQuery(System.String,System.ValueTuple{System.String,System.Object}[],System.Data.IDbConnection,System.Data.IDbTransaction)">ExecuteNonQuery(String, (String name, Object value)[], IDbConnection, IDbTransaction)</h4>
+  <div class="markdown level1 summary"><p>Execute a sql like update / insert</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ExecuteNonQuery(string sql, (string name, object value)[] parameters, IDbConnection connection, IDbTransaction transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>sql to execute</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>parameter values bound to sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>connection to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>transaction to execute sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>affected row count</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_ExecuteScalar_" data-uid="DirectSQL.Database.ExecuteScalar*"></a>
+  <h4 id="DirectSQL_Database_ExecuteScalar_System_String_System_Data_IDbConnection_System_Data_IDbTransaction_" data-uid="DirectSQL.Database.ExecuteScalar(System.String,System.Data.IDbConnection,System.Data.IDbTransaction)">ExecuteScalar(String, IDbConnection, IDbTransaction)</h4>
+  <div class="markdown level1 summary"><p>Execute a sql and get a scalar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object ExecuteScalar(string sql, IDbConnection connection, IDbTransaction transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>sql to execute</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>connection to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>transaction to execute sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>result of sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_ExecuteScalar_" data-uid="DirectSQL.Database.ExecuteScalar*"></a>
+  <h4 id="DirectSQL_Database_ExecuteScalar_System_String_System_ValueTuple_System_String_System_Object____System_Data_IDbConnection_System_Data_IDbTransaction_" data-uid="DirectSQL.Database.ExecuteScalar(System.String,System.ValueTuple{System.String,System.Object}[],System.Data.IDbConnection,System.Data.IDbTransaction)">ExecuteScalar(String, (String name, Object value)[], IDbConnection, IDbTransaction)</h4>
+  <div class="markdown level1 summary"><p>Execute a sql and get a scalar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object ExecuteScalar(string sql, (string name, object value)[] parameters, IDbConnection connection, IDbTransaction transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>sql to execute</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>parameter values bound to sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>connection to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>transaction to execute sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>result of sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_Process_" data-uid="DirectSQL.Database.Process*"></a>
+  <h4 id="DirectSQL_Database_Process_DirectSQL_ConnectExecution_" data-uid="DirectSQL.Database.Process(DirectSQL.ConnectExecution)">Process(ConnectExecution)</h4>
+  <div class="markdown level1 summary"><p>Synchronous process with a connection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Process(ConnectExecution execute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DirectSQL.ConnectExecution.html">ConnectExecution</a></td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>execution with a connection</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_Process_" data-uid="DirectSQL.Database.Process*"></a>
+  <h4 id="DirectSQL_Database_Process_DirectSQL_SqlExecution_" data-uid="DirectSQL.Database.Process(DirectSQL.SqlExecution)">Process(SqlExecution)</h4>
+  <div class="markdown level1 summary"><p>Synchronous process with a connection and a transaction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Process(SqlExecution execute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DirectSQL.SqlExecution.html">SqlExecution</a></td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>execution with a connection and a transaction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_ProcessAsync_" data-uid="DirectSQL.Database.ProcessAsync*"></a>
+  <h4 id="DirectSQL_Database_ProcessAsync_DirectSQL_AsyncConnectExecution_" data-uid="DirectSQL.Database.ProcessAsync(DirectSQL.AsyncConnectExecution)">ProcessAsync(AsyncConnectExecution)</h4>
+  <div class="markdown level1 summary"><p>Asynchronous process with a connection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ProcessAsync(AsyncConnectExecution execute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DirectSQL.AsyncConnectExecution.html">AsyncConnectExecution</a></td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>execution with a connection</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_ProcessAsync_" data-uid="DirectSQL.Database.ProcessAsync*"></a>
+  <h4 id="DirectSQL_Database_ProcessAsync_DirectSQL_AsyncSqlExecution_" data-uid="DirectSQL.Database.ProcessAsync(DirectSQL.AsyncSqlExecution)">ProcessAsync(AsyncSqlExecution)</h4>
+  <div class="markdown level1 summary"><p>Asynchronous process with a connection and a transaction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ProcessAsync(AsyncSqlExecution execute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DirectSQL.AsyncSqlExecution.html">AsyncSqlExecution</a></td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>execution with a connection and a transaction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_Query_" data-uid="DirectSQL.Database.Query*"></a>
+  <h4 id="DirectSQL_Database_Query_System_String_System_Data_IDbConnection_System_Data_IDbTransaction_DirectSQL_ReadSqlResult_" data-uid="DirectSQL.Database.Query(System.String,System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)">Query(String, IDbConnection, IDbTransaction, ReadSqlResult)</h4>
+  <div class="markdown level1 summary"><p>Execute a sql to query</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Query(string sql, IDbConnection connection, IDbTransaction transaction, ReadSqlResult readResult)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>a sql to query</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>a connection to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>a transaction to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DirectSQL.ReadSqlResult.html">ReadSqlResult</a></td>
+        <td><span class="parametername">readResult</span></td>
+        <td><p>function to read result of sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_Query_" data-uid="DirectSQL.Database.Query*"></a>
+  <h4 id="DirectSQL_Database_Query_System_String_System_ValueTuple_System_String_System_Object____System_Data_IDbConnection_System_Data_IDbTransaction_DirectSQL_ReadSqlResult_" data-uid="DirectSQL.Database.Query(System.String,System.ValueTuple{System.String,System.Object}[],System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)">Query(String, (String name, Object value)[], IDbConnection, IDbTransaction, ReadSqlResult)</h4>
+  <div class="markdown level1 summary"><p>Execute a sql to query</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Query(string sql, (string name, object value)[] parameters, IDbConnection connection, IDbTransaction transaction, ReadSqlResult readResult)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>a sql to query</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>parameter values bound to sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>a connection to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>a transaction to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DirectSQL.ReadSqlResult.html">ReadSqlResult</a></td>
+        <td><span class="parametername">readResult</span></td>
+        <td><p>function to read result of sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_Transaction_" data-uid="DirectSQL.Database.Transaction*"></a>
+  <h4 id="DirectSQL_Database_Transaction_System_Data_IDbConnection_DirectSQL_SqlExecution_" data-uid="DirectSQL.Database.Transaction(System.Data.IDbConnection,DirectSQL.SqlExecution)">Transaction(IDbConnection, SqlExecution)</h4>
+  <div class="markdown level1 summary"><p>Execute in a transaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Transaction(IDbConnection connection, SqlExecution execute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>connection to be used</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DirectSQL.SqlExecution.html">SqlExecution</a></td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>to be executed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_TransactionAsync_" data-uid="DirectSQL.Database.TransactionAsync*"></a>
+  <h4 id="DirectSQL_Database_TransactionAsync_System_Data_IDbConnection_DirectSQL_AsyncSqlExecution_" data-uid="DirectSQL.Database.TransactionAsync(System.Data.IDbConnection,DirectSQL.AsyncSqlExecution)">TransactionAsync(IDbConnection, AsyncSqlExecution)</h4>
+  <div class="markdown level1 summary"><p>Execute in a transaction asynchronously.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task TransactionAsync(IDbConnection connection, AsyncSqlExecution execute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>connection to be used</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DirectSQL.AsyncSqlExecution.html">AsyncSqlExecution</a></td>
+        <td><span class="parametername">execute</span></td>
+        <td><p>to be executed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>A task stands for asynchronous execution</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>
