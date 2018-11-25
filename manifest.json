@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.DB2.DB2Database.html",
-          "hash": "nLa1OtzZ2Gm7i9v95qrXqw=="
+          "hash": "viUJsqQOBCipzupG8GlTPw=="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Database.html",
-          "hash": "lmT5KzyvguLt81hk8EoCYw=="
+          "hash": "anuHaDAGNR9ax3XrlVBcZw=="
         }
       },
       "is_incremental": true,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.MySql.MySqlDatabase.html",
-          "hash": "FRffHUYNCbCvQvVJnDQorA=="
+          "hash": "TXpgxoleuHy45asIKFPcRA=="
         }
       },
       "is_incremental": true,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Npgsql.NpgsqlDatabase.html",
-          "hash": "b0Pm/SGNs26urfIn6pa4bg=="
+          "hash": "dMi/tEc7MtwKXCckZH/DVQ=="
         }
       },
       "is_incremental": true,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlLite.SqlLiteDatabase.html",
-          "hash": "TFqsRvnweITG3mWle+O58Q=="
+          "hash": "Xl3V3DZ/adfAg5sZpXc9bQ=="
         }
       },
       "is_incremental": true,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlServer.SqlServerDatabase.html",
-          "hash": "Uq5NibRyjHL7zev3TChUYQ=="
+          "hash": "nosRRuGIwf8KpW2EbSStnQ=="
         }
       },
       "is_incremental": true,
@@ -262,10 +262,9 @@
         ".html": {
           "relative_path": "doc/articles/intro.html",
           "hash": "+7B0/RqQSBmaIOHZ3mdGqw=="
-
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -312,11 +311,11 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },

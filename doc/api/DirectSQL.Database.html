@@ -146,6 +146,123 @@
   </table>
   
   
+  <a id="DirectSQL_Database_ExecuteFormattableNonQuery_" data-uid="DirectSQL.Database.ExecuteFormattableNonQuery*"></a>
+  <h4 id="DirectSQL_Database_ExecuteFormattableNonQuery_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction_" data-uid="DirectSQL.Database.ExecuteFormattableNonQuery(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)">ExecuteFormattableNonQuery(FormattableString, IDbConnection, IDbTransaction)</h4>
+  <div class="markdown level1 summary"><p>Execute a sql like update / insert</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ExecuteFormattableNonQuery(FormattableString sql, IDbConnection connection, IDbTransaction transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormattableString</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>sql to execute in formattable string</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>connection to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>transaction to execute sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>affected row count</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DirectSQL_Database_ExecuteFormattableNonQuery_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Formattable string is handled as sql with bind parameters</p>
+</div>
+  
+  
+  <a id="DirectSQL_Database_ExecuteFormattableScalar_" data-uid="DirectSQL.Database.ExecuteFormattableScalar*"></a>
+  <h4 id="DirectSQL_Database_ExecuteFormattableScalar_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction_" data-uid="DirectSQL.Database.ExecuteFormattableScalar(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)">ExecuteFormattableScalar(FormattableString, IDbConnection, IDbTransaction)</h4>
+  <div class="markdown level1 summary"><p>Execute a sql and get a scalar.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object ExecuteFormattableScalar(FormattableString sql, IDbConnection connection, IDbTransaction transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormattableString</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>sql to execute</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>connection to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>transaction to execute sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><p>result of sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DirectSQL_Database_ExecuteNonQuery_" data-uid="DirectSQL.Database.ExecuteNonQuery*"></a>
   <h4 id="DirectSQL_Database_ExecuteNonQuery_System_String_System_Data_IDbConnection_System_Data_IDbTransaction_" data-uid="DirectSQL.Database.ExecuteNonQuery(System.String,System.Data.IDbConnection,System.Data.IDbTransaction)">ExecuteNonQuery(String, IDbConnection, IDbTransaction)</h4>
   <div class="markdown level1 summary"><p>Execute a sql like update / insert</p>
@@ -608,6 +725,53 @@
         <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
         <td><span class="parametername">parameters</span></td>
         <td><p>parameter values bound to sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbConnection</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>a connection to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.IDbTransaction</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>a transaction to execute sql</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DirectSQL.ReadSqlResult.html">ReadSqlResult</a></td>
+        <td><span class="parametername">readResult</span></td>
+        <td><p>function to read result of sql</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DirectSQL_Database_QueryFormattable_" data-uid="DirectSQL.Database.QueryFormattable*"></a>
+  <h4 id="DirectSQL_Database_QueryFormattable_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction_DirectSQL_ReadSqlResult_" data-uid="DirectSQL.Database.QueryFormattable(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)">QueryFormattable(FormattableString, IDbConnection, IDbTransaction, ReadSqlResult)</h4>
+  <div class="markdown level1 summary"><p>Execute a sql to query</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void QueryFormattable(FormattableString sql, IDbConnection connection, IDbTransaction transaction, ReadSqlResult readResult)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.FormattableString</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td><p>a sql to query</p>
 </td>
       </tr>
       <tr>

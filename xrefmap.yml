@@ -44,6 +44,32 @@ references:
   isSpec: "True"
   fullName: DirectSQL.Database.CreateConnection
   nameWithType: Database.CreateConnection
+- uid: DirectSQL.Database.ExecuteFormattableNonQuery(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)
+  name: ExecuteFormattableNonQuery(FormattableString, IDbConnection, IDbTransaction)
+  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteFormattableNonQuery_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction_
+  commentId: M:DirectSQL.Database.ExecuteFormattableNonQuery(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)
+  fullName: DirectSQL.Database.ExecuteFormattableNonQuery(System.FormattableString, System.Data.IDbConnection, System.Data.IDbTransaction)
+  nameWithType: Database.ExecuteFormattableNonQuery(FormattableString, IDbConnection, IDbTransaction)
+- uid: DirectSQL.Database.ExecuteFormattableNonQuery*
+  name: ExecuteFormattableNonQuery
+  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteFormattableNonQuery_
+  commentId: Overload:DirectSQL.Database.ExecuteFormattableNonQuery
+  isSpec: "True"
+  fullName: DirectSQL.Database.ExecuteFormattableNonQuery
+  nameWithType: Database.ExecuteFormattableNonQuery
+- uid: DirectSQL.Database.ExecuteFormattableScalar(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)
+  name: ExecuteFormattableScalar(FormattableString, IDbConnection, IDbTransaction)
+  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteFormattableScalar_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction_
+  commentId: M:DirectSQL.Database.ExecuteFormattableScalar(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)
+  fullName: DirectSQL.Database.ExecuteFormattableScalar(System.FormattableString, System.Data.IDbConnection, System.Data.IDbTransaction)
+  nameWithType: Database.ExecuteFormattableScalar(FormattableString, IDbConnection, IDbTransaction)
+- uid: DirectSQL.Database.ExecuteFormattableScalar*
+  name: ExecuteFormattableScalar
+  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteFormattableScalar_
+  commentId: Overload:DirectSQL.Database.ExecuteFormattableScalar
+  isSpec: "True"
+  fullName: DirectSQL.Database.ExecuteFormattableScalar
+  nameWithType: Database.ExecuteFormattableScalar
 - uid: DirectSQL.Database.ExecuteNonQuery(System.String,System.Data.IDbConnection,System.Data.IDbTransaction)
   name: ExecuteNonQuery(String, IDbConnection, IDbTransaction)
   href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteNonQuery_System_String_System_Data_IDbConnection_System_Data_IDbTransaction_
@@ -148,6 +174,19 @@ references:
   isSpec: "True"
   fullName: DirectSQL.Database.Query
   nameWithType: Database.Query
+- uid: DirectSQL.Database.QueryFormattable(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)
+  name: QueryFormattable(FormattableString, IDbConnection, IDbTransaction, ReadSqlResult)
+  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_QueryFormattable_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction_DirectSQL_ReadSqlResult_
+  commentId: M:DirectSQL.Database.QueryFormattable(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)
+  fullName: DirectSQL.Database.QueryFormattable(System.FormattableString, System.Data.IDbConnection, System.Data.IDbTransaction, DirectSQL.ReadSqlResult)
+  nameWithType: Database.QueryFormattable(FormattableString, IDbConnection, IDbTransaction, ReadSqlResult)
+- uid: DirectSQL.Database.QueryFormattable*
+  name: QueryFormattable
+  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_QueryFormattable_
+  commentId: Overload:DirectSQL.Database.QueryFormattable
+  isSpec: "True"
+  fullName: DirectSQL.Database.QueryFormattable
+  nameWithType: Database.QueryFormattable
 - uid: DirectSQL.Database.Transaction(System.Data.IDbConnection,DirectSQL.SqlExecution)
   name: Transaction(IDbConnection, SqlExecution)
   href: doc/api/DirectSQL.Database.html#DirectSQL_Database_Transaction_System_Data_IDbConnection_DirectSQL_SqlExecution_
