@@ -506,6 +506,22 @@ references:
   isSpec: "True"
   fullName: DirectSQL.SqlResult.ResultFields
   nameWithType: SqlResult.ResultFields
+- uid: DirectSQL.SqlResult.ResultObject*
+  name: ResultObject
+  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultObject_
+  commentId: Overload:DirectSQL.SqlResult.ResultObject
+  isSpec: "True"
+  fullName: DirectSQL.SqlResult.ResultObject
+  nameWithType: SqlResult.ResultObject
+- uid: DirectSQL.SqlResult.ResultObject``1(System.Func{System.Object,``0})
+  name: ResultObject<T>(Func<Object, T>)
+  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultObject__1_System_Func_System_Object___0__
+  commentId: M:DirectSQL.SqlResult.ResultObject``1(System.Func{System.Object,``0})
+  name.vb: ResultObject(Of T)(Func(Of Object, T))
+  fullName: DirectSQL.SqlResult.ResultObject<T>(System.Func<System.Object, T>)
+  fullName.vb: DirectSQL.SqlResult.ResultObject(Of T)(System.Func(Of System.Object, T))
+  nameWithType: SqlResult.ResultObject<T>(Func<Object, T>)
+  nameWithType.vb: SqlResult.ResultObject(Of T)(Func(Of Object, T))
 - uid: DirectSQL.SqlResult.ResultTuples
   name: ResultTuples
   href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultTuples

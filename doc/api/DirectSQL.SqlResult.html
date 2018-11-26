@@ -328,6 +328,70 @@ in result row</p>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="DirectSQL_SqlResult_ResultObject_" data-uid="DirectSQL.SqlResult.ResultObject*"></a>
+  <h4 id="DirectSQL_SqlResult_ResultObject__1_System_Func_System_Object___0__" data-uid="DirectSQL.SqlResult.ResultObject``1(System.Func{System.Object,``0})">ResultObject&lt;T&gt;(Func&lt;Object, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Result object of type T</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T ResultObject&lt;T&gt;(Func&lt;dynamic, T&gt; convert)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, T&gt;</td>
+        <td><span class="parametername">convert</span></td>
+        <td><p>convert from dynamic to T</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>result object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of result object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DirectSQL_SqlResult_ResultObject__1_System_Func_System_Object___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>dynamic object is same as ResultValues</p>
+</div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.IDisposable</span>
