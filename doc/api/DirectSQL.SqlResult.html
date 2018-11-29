@@ -292,6 +292,67 @@ in result row</p>
   </h3>
   
   
+  <a id="DirectSQL_SqlResult_AsEnumerable_" data-uid="DirectSQL.SqlResult.AsEnumerable*"></a>
+  <h4 id="DirectSQL_SqlResult_AsEnumerable__1_System_Func_System_Object___0__" data-uid="DirectSQL.SqlResult.AsEnumerable``1(System.Func{System.Object,``0})">AsEnumerable&lt;T&gt;(Func&lt;Object, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Return enumerable of SqlResult</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; AsEnumerable&lt;T&gt;(Func&lt;dynamic, T&gt; convert)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Object</span>, T&gt;</td>
+        <td><span class="parametername">convert</span></td>
+        <td><p>Convert from dynamic to T</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><p>Object which enumerate result of SqlResult</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Type of object to be enumerated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DirectSQL_SqlResult_Dispose_" data-uid="DirectSQL.SqlResult.Dispose*"></a>
   <h4 id="DirectSQL_SqlResult_Dispose" data-uid="DirectSQL.SqlResult.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"><p>Dispose resources.</p>

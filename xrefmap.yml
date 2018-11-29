@@ -441,6 +441,22 @@ references:
   commentId: T:DirectSQL.SqlResult
   fullName: DirectSQL.SqlResult
   nameWithType: SqlResult
+- uid: DirectSQL.SqlResult.AsEnumerable*
+  name: AsEnumerable
+  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_AsEnumerable_
+  commentId: Overload:DirectSQL.SqlResult.AsEnumerable
+  isSpec: "True"
+  fullName: DirectSQL.SqlResult.AsEnumerable
+  nameWithType: SqlResult.AsEnumerable
+- uid: DirectSQL.SqlResult.AsEnumerable``1(System.Func{System.Object,``0})
+  name: AsEnumerable<T>(Func<Object, T>)
+  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_AsEnumerable__1_System_Func_System_Object___0__
+  commentId: M:DirectSQL.SqlResult.AsEnumerable``1(System.Func{System.Object,``0})
+  name.vb: AsEnumerable(Of T)(Func(Of Object, T))
+  fullName: DirectSQL.SqlResult.AsEnumerable<T>(System.Func<System.Object, T>)
+  fullName.vb: DirectSQL.SqlResult.AsEnumerable(Of T)(System.Func(Of System.Object, T))
+  nameWithType: SqlResult.AsEnumerable<T>(Func<Object, T>)
+  nameWithType.vb: SqlResult.AsEnumerable(Of T)(Func(Of Object, T))
 - uid: DirectSQL.SqlResult.Command
   name: Command
   href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Command

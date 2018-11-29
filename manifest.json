@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlResult.html",
-          "hash": "u7IeqUnFJEq9QnMLtU7tFQ=="
+          "hash": "W60jOrQd6qb35jbHl9aL+w=="
         }
       },
       "is_incremental": true,
@@ -316,11 +316,11 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         }
