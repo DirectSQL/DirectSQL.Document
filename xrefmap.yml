@@ -7,212 +7,297 @@ references:
   commentId: N:DirectSQL
   fullName: DirectSQL
   nameWithType: DirectSQL
-- uid: DirectSQL.AsyncConnectExecution
-  name: AsyncConnectExecution
-  href: doc/api/DirectSQL.AsyncConnectExecution.html
-  commentId: T:DirectSQL.AsyncConnectExecution
-  fullName: DirectSQL.AsyncConnectExecution
-  nameWithType: AsyncConnectExecution
-- uid: DirectSQL.AsyncSqlExecution
-  name: AsyncSqlExecution
-  href: doc/api/DirectSQL.AsyncSqlExecution.html
-  commentId: T:DirectSQL.AsyncSqlExecution
-  fullName: DirectSQL.AsyncSqlExecution
-  nameWithType: AsyncSqlExecution
-- uid: DirectSQL.ConnectExecution
-  name: ConnectExecution
-  href: doc/api/DirectSQL.ConnectExecution.html
-  commentId: T:DirectSQL.ConnectExecution
-  fullName: DirectSQL.ConnectExecution
-  nameWithType: ConnectExecution
-- uid: DirectSQL.Database
-  name: Database
-  href: doc/api/DirectSQL.Database.html
-  commentId: T:DirectSQL.Database
-  fullName: DirectSQL.Database
-  nameWithType: Database
-- uid: DirectSQL.Database.CreateConnection
+- uid: DirectSQL.AsyncConnectExecution`1
+  name: AsyncConnectExecution<C>
+  href: doc/api/DirectSQL.AsyncConnectExecution-1.html
+  commentId: T:DirectSQL.AsyncConnectExecution`1
+  name.vb: AsyncConnectExecution(Of C)
+  fullName: DirectSQL.AsyncConnectExecution<C>
+  fullName.vb: DirectSQL.AsyncConnectExecution(Of C)
+  nameWithType: AsyncConnectExecution<C>
+  nameWithType.vb: AsyncConnectExecution(Of C)
+- uid: DirectSQL.AsyncSqlExecution`2
+  name: AsyncSqlExecution<C, T>
+  href: doc/api/DirectSQL.AsyncSqlExecution-2.html
+  commentId: T:DirectSQL.AsyncSqlExecution`2
+  name.vb: AsyncSqlExecution(Of C, T)
+  fullName: DirectSQL.AsyncSqlExecution<C, T>
+  fullName.vb: DirectSQL.AsyncSqlExecution(Of C, T)
+  nameWithType: AsyncSqlExecution<C, T>
+  nameWithType.vb: AsyncSqlExecution(Of C, T)
+- uid: DirectSQL.ConnectExecution`1
+  name: ConnectExecution<C>
+  href: doc/api/DirectSQL.ConnectExecution-1.html
+  commentId: T:DirectSQL.ConnectExecution`1
+  name.vb: ConnectExecution(Of C)
+  fullName: DirectSQL.ConnectExecution<C>
+  fullName.vb: DirectSQL.ConnectExecution(Of C)
+  nameWithType: ConnectExecution<C>
+  nameWithType.vb: ConnectExecution(Of C)
+- uid: DirectSQL.Database`5
+  name: Database<C, T, CMD, R, P>
+  href: doc/api/DirectSQL.Database-5.html
+  commentId: T:DirectSQL.Database`5
+  name.vb: Database(Of C, T, CMD, R, P)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P)
+  nameWithType: Database<C, T, CMD, R, P>
+  nameWithType.vb: Database(Of C, T, CMD, R, P)
+- uid: DirectSQL.Database`5.CreateConnection
   name: CreateConnection()
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_CreateConnection
-  commentId: M:DirectSQL.Database.CreateConnection
-  fullName: DirectSQL.Database.CreateConnection()
-  nameWithType: Database.CreateConnection()
-- uid: DirectSQL.Database.CreateConnection*
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_CreateConnection
+  commentId: M:DirectSQL.Database`5.CreateConnection
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.CreateConnection()
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).CreateConnection()
+  nameWithType: Database<C, T, CMD, R, P>.CreateConnection()
+  nameWithType.vb: Database(Of C, T, CMD, R, P).CreateConnection()
+- uid: DirectSQL.Database`5.CreateConnection*
   name: CreateConnection
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_CreateConnection_
-  commentId: Overload:DirectSQL.Database.CreateConnection
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_CreateConnection_
+  commentId: Overload:DirectSQL.Database`5.CreateConnection
   isSpec: "True"
-  fullName: DirectSQL.Database.CreateConnection
-  nameWithType: Database.CreateConnection
-- uid: DirectSQL.Database.ExecuteFormattableNonQuery(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)
-  name: ExecuteFormattableNonQuery(FormattableString, IDbConnection, IDbTransaction)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteFormattableNonQuery_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction_
-  commentId: M:DirectSQL.Database.ExecuteFormattableNonQuery(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)
-  fullName: DirectSQL.Database.ExecuteFormattableNonQuery(System.FormattableString, System.Data.IDbConnection, System.Data.IDbTransaction)
-  nameWithType: Database.ExecuteFormattableNonQuery(FormattableString, IDbConnection, IDbTransaction)
-- uid: DirectSQL.Database.ExecuteFormattableNonQuery*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.CreateConnection
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).CreateConnection
+  nameWithType: Database<C, T, CMD, R, P>.CreateConnection
+  nameWithType.vb: Database(Of C, T, CMD, R, P).CreateConnection
+- uid: DirectSQL.Database`5.CreateParameter(System.String,System.Object)
+  name: CreateParameter(String, Object)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_CreateParameter_System_String_System_Object_
+  commentId: M:DirectSQL.Database`5.CreateParameter(System.String,System.Object)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.CreateParameter(System.String, System.Object)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).CreateParameter(System.String, System.Object)
+  nameWithType: Database<C, T, CMD, R, P>.CreateParameter(String, Object)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).CreateParameter(String, Object)
+- uid: DirectSQL.Database`5.CreateParameter*
+  name: CreateParameter
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_CreateParameter_
+  commentId: Overload:DirectSQL.Database`5.CreateParameter
+  isSpec: "True"
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.CreateParameter
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).CreateParameter
+  nameWithType: Database<C, T, CMD, R, P>.CreateParameter
+  nameWithType.vb: Database(Of C, T, CMD, R, P).CreateParameter
+- uid: DirectSQL.Database`5.ExecuteFormattableNonQuery(System.FormattableString,`0,`1)
+  name: ExecuteFormattableNonQuery(FormattableString, C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteFormattableNonQuery_System_FormattableString__0__1_
+  commentId: M:DirectSQL.Database`5.ExecuteFormattableNonQuery(System.FormattableString,`0,`1)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteFormattableNonQuery(System.FormattableString, C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteFormattableNonQuery(System.FormattableString, C, T)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteFormattableNonQuery(FormattableString, C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteFormattableNonQuery(FormattableString, C, T)
+- uid: DirectSQL.Database`5.ExecuteFormattableNonQuery*
   name: ExecuteFormattableNonQuery
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteFormattableNonQuery_
-  commentId: Overload:DirectSQL.Database.ExecuteFormattableNonQuery
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteFormattableNonQuery_
+  commentId: Overload:DirectSQL.Database`5.ExecuteFormattableNonQuery
   isSpec: "True"
-  fullName: DirectSQL.Database.ExecuteFormattableNonQuery
-  nameWithType: Database.ExecuteFormattableNonQuery
-- uid: DirectSQL.Database.ExecuteFormattableScalar(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)
-  name: ExecuteFormattableScalar(FormattableString, IDbConnection, IDbTransaction)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteFormattableScalar_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction_
-  commentId: M:DirectSQL.Database.ExecuteFormattableScalar(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction)
-  fullName: DirectSQL.Database.ExecuteFormattableScalar(System.FormattableString, System.Data.IDbConnection, System.Data.IDbTransaction)
-  nameWithType: Database.ExecuteFormattableScalar(FormattableString, IDbConnection, IDbTransaction)
-- uid: DirectSQL.Database.ExecuteFormattableScalar*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteFormattableNonQuery
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteFormattableNonQuery
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteFormattableNonQuery
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteFormattableNonQuery
+- uid: DirectSQL.Database`5.ExecuteFormattableScalar(System.FormattableString,`0,`1)
+  name: ExecuteFormattableScalar(FormattableString, C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteFormattableScalar_System_FormattableString__0__1_
+  commentId: M:DirectSQL.Database`5.ExecuteFormattableScalar(System.FormattableString,`0,`1)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteFormattableScalar(System.FormattableString, C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteFormattableScalar(System.FormattableString, C, T)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteFormattableScalar(FormattableString, C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteFormattableScalar(FormattableString, C, T)
+- uid: DirectSQL.Database`5.ExecuteFormattableScalar*
   name: ExecuteFormattableScalar
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteFormattableScalar_
-  commentId: Overload:DirectSQL.Database.ExecuteFormattableScalar
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteFormattableScalar_
+  commentId: Overload:DirectSQL.Database`5.ExecuteFormattableScalar
   isSpec: "True"
-  fullName: DirectSQL.Database.ExecuteFormattableScalar
-  nameWithType: Database.ExecuteFormattableScalar
-- uid: DirectSQL.Database.ExecuteNonQuery(System.String,System.Data.IDbConnection,System.Data.IDbTransaction)
-  name: ExecuteNonQuery(String, IDbConnection, IDbTransaction)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteNonQuery_System_String_System_Data_IDbConnection_System_Data_IDbTransaction_
-  commentId: M:DirectSQL.Database.ExecuteNonQuery(System.String,System.Data.IDbConnection,System.Data.IDbTransaction)
-  fullName: DirectSQL.Database.ExecuteNonQuery(System.String, System.Data.IDbConnection, System.Data.IDbTransaction)
-  nameWithType: Database.ExecuteNonQuery(String, IDbConnection, IDbTransaction)
-- uid: DirectSQL.Database.ExecuteNonQuery(System.String,System.ValueTuple{System.String,System.Object}[],System.Data.IDbConnection,System.Data.IDbTransaction)
-  name: ExecuteNonQuery(String, (String name, Object value)[], IDbConnection, IDbTransaction)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteNonQuery_System_String_System_ValueTuple_System_String_System_Object____System_Data_IDbConnection_System_Data_IDbTransaction_
-  commentId: M:DirectSQL.Database.ExecuteNonQuery(System.String,System.ValueTuple{System.String,System.Object}[],System.Data.IDbConnection,System.Data.IDbTransaction)
-  name.vb: ExecuteNonQuery(String, (name As String, value As Object)(), IDbConnection, IDbTransaction)
-  fullName: DirectSQL.Database.ExecuteNonQuery(System.String, System.ValueTuple<System.String, System.Object>[], System.Data.IDbConnection, System.Data.IDbTransaction)
-  fullName.vb: DirectSQL.Database.ExecuteNonQuery(System.String, System.ValueTuple(Of System.String, System.Object)(), System.Data.IDbConnection, System.Data.IDbTransaction)
-  nameWithType: Database.ExecuteNonQuery(String, (String name, Object value)[], IDbConnection, IDbTransaction)
-  nameWithType.vb: Database.ExecuteNonQuery(String, (name As String, value As Object)(), IDbConnection, IDbTransaction)
-- uid: DirectSQL.Database.ExecuteNonQuery*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteFormattableScalar
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteFormattableScalar
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteFormattableScalar
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteFormattableScalar
+- uid: DirectSQL.Database`5.ExecuteNonQuery(System.String,`0,`1)
+  name: ExecuteNonQuery(String, C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteNonQuery_System_String__0__1_
+  commentId: M:DirectSQL.Database`5.ExecuteNonQuery(System.String,`0,`1)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteNonQuery(System.String, C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteNonQuery(System.String, C, T)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteNonQuery(String, C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteNonQuery(String, C, T)
+- uid: DirectSQL.Database`5.ExecuteNonQuery(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
+  name: ExecuteNonQuery(String, (String name, Object value)[], C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteNonQuery_System_String_System_ValueTuple_System_String_System_Object_____0__1_
+  commentId: M:DirectSQL.Database`5.ExecuteNonQuery(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
+  name.vb: ExecuteNonQuery(String, (name As String, value As Object)(), C, T)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteNonQuery(System.String, System.ValueTuple<System.String, System.Object>[], C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteNonQuery(System.String, System.ValueTuple(Of System.String, System.Object)(), C, T)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteNonQuery(String, (String name, Object value)[], C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteNonQuery(String, (name As String, value As Object)(), C, T)
+- uid: DirectSQL.Database`5.ExecuteNonQuery*
   name: ExecuteNonQuery
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteNonQuery_
-  commentId: Overload:DirectSQL.Database.ExecuteNonQuery
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteNonQuery_
+  commentId: Overload:DirectSQL.Database`5.ExecuteNonQuery
   isSpec: "True"
-  fullName: DirectSQL.Database.ExecuteNonQuery
-  nameWithType: Database.ExecuteNonQuery
-- uid: DirectSQL.Database.ExecuteScalar(System.String,System.Data.IDbConnection,System.Data.IDbTransaction)
-  name: ExecuteScalar(String, IDbConnection, IDbTransaction)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteScalar_System_String_System_Data_IDbConnection_System_Data_IDbTransaction_
-  commentId: M:DirectSQL.Database.ExecuteScalar(System.String,System.Data.IDbConnection,System.Data.IDbTransaction)
-  fullName: DirectSQL.Database.ExecuteScalar(System.String, System.Data.IDbConnection, System.Data.IDbTransaction)
-  nameWithType: Database.ExecuteScalar(String, IDbConnection, IDbTransaction)
-- uid: DirectSQL.Database.ExecuteScalar(System.String,System.ValueTuple{System.String,System.Object}[],System.Data.IDbConnection,System.Data.IDbTransaction)
-  name: ExecuteScalar(String, (String name, Object value)[], IDbConnection, IDbTransaction)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteScalar_System_String_System_ValueTuple_System_String_System_Object____System_Data_IDbConnection_System_Data_IDbTransaction_
-  commentId: M:DirectSQL.Database.ExecuteScalar(System.String,System.ValueTuple{System.String,System.Object}[],System.Data.IDbConnection,System.Data.IDbTransaction)
-  name.vb: ExecuteScalar(String, (name As String, value As Object)(), IDbConnection, IDbTransaction)
-  fullName: DirectSQL.Database.ExecuteScalar(System.String, System.ValueTuple<System.String, System.Object>[], System.Data.IDbConnection, System.Data.IDbTransaction)
-  fullName.vb: DirectSQL.Database.ExecuteScalar(System.String, System.ValueTuple(Of System.String, System.Object)(), System.Data.IDbConnection, System.Data.IDbTransaction)
-  nameWithType: Database.ExecuteScalar(String, (String name, Object value)[], IDbConnection, IDbTransaction)
-  nameWithType.vb: Database.ExecuteScalar(String, (name As String, value As Object)(), IDbConnection, IDbTransaction)
-- uid: DirectSQL.Database.ExecuteScalar*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteNonQuery
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteNonQuery
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteNonQuery
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteNonQuery
+- uid: DirectSQL.Database`5.ExecuteScalar(System.String,`0,`1)
+  name: ExecuteScalar(String, C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalar_System_String__0__1_
+  commentId: M:DirectSQL.Database`5.ExecuteScalar(System.String,`0,`1)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalar(System.String, C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar(System.String, C, T)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar(String, C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar(String, C, T)
+- uid: DirectSQL.Database`5.ExecuteScalar(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
+  name: ExecuteScalar(String, (String name, Object value)[], C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalar_System_String_System_ValueTuple_System_String_System_Object_____0__1_
+  commentId: M:DirectSQL.Database`5.ExecuteScalar(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
+  name.vb: ExecuteScalar(String, (name As String, value As Object)(), C, T)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalar(System.String, System.ValueTuple<System.String, System.Object>[], C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar(System.String, System.ValueTuple(Of System.String, System.Object)(), C, T)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar(String, (String name, Object value)[], C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar(String, (name As String, value As Object)(), C, T)
+- uid: DirectSQL.Database`5.ExecuteScalar*
   name: ExecuteScalar
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ExecuteScalar_
-  commentId: Overload:DirectSQL.Database.ExecuteScalar
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalar_
+  commentId: Overload:DirectSQL.Database`5.ExecuteScalar
   isSpec: "True"
-  fullName: DirectSQL.Database.ExecuteScalar
-  nameWithType: Database.ExecuteScalar
-- uid: DirectSQL.Database.Process(DirectSQL.ConnectExecution)
-  name: Process(ConnectExecution)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_Process_DirectSQL_ConnectExecution_
-  commentId: M:DirectSQL.Database.Process(DirectSQL.ConnectExecution)
-  fullName: DirectSQL.Database.Process(DirectSQL.ConnectExecution)
-  nameWithType: Database.Process(ConnectExecution)
-- uid: DirectSQL.Database.Process(DirectSQL.SqlExecution)
-  name: Process(SqlExecution)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_Process_DirectSQL_SqlExecution_
-  commentId: M:DirectSQL.Database.Process(DirectSQL.SqlExecution)
-  fullName: DirectSQL.Database.Process(DirectSQL.SqlExecution)
-  nameWithType: Database.Process(SqlExecution)
-- uid: DirectSQL.Database.Process*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalar
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar
+- uid: DirectSQL.Database`5.Process(DirectSQL.ConnectExecution{`0})
+  name: Process(ConnectExecution<C>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Process_DirectSQL_ConnectExecution__0__
+  commentId: M:DirectSQL.Database`5.Process(DirectSQL.ConnectExecution{`0})
+  name.vb: Process(ConnectExecution(Of C))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Process(DirectSQL.ConnectExecution<C>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Process(DirectSQL.ConnectExecution(Of C))
+  nameWithType: Database<C, T, CMD, R, P>.Process(ConnectExecution<C>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Process(ConnectExecution(Of C))
+- uid: DirectSQL.Database`5.Process(DirectSQL.SqlExecution{`0,`1})
+  name: Process(SqlExecution<C, T>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Process_DirectSQL_SqlExecution__0__1__
+  commentId: M:DirectSQL.Database`5.Process(DirectSQL.SqlExecution{`0,`1})
+  name.vb: Process(SqlExecution(Of C, T))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Process(DirectSQL.SqlExecution<C, T>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Process(DirectSQL.SqlExecution(Of C, T))
+  nameWithType: Database<C, T, CMD, R, P>.Process(SqlExecution<C, T>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Process(SqlExecution(Of C, T))
+- uid: DirectSQL.Database`5.Process*
   name: Process
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_Process_
-  commentId: Overload:DirectSQL.Database.Process
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Process_
+  commentId: Overload:DirectSQL.Database`5.Process
   isSpec: "True"
-  fullName: DirectSQL.Database.Process
-  nameWithType: Database.Process
-- uid: DirectSQL.Database.ProcessAsync(DirectSQL.AsyncConnectExecution)
-  name: ProcessAsync(AsyncConnectExecution)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ProcessAsync_DirectSQL_AsyncConnectExecution_
-  commentId: M:DirectSQL.Database.ProcessAsync(DirectSQL.AsyncConnectExecution)
-  fullName: DirectSQL.Database.ProcessAsync(DirectSQL.AsyncConnectExecution)
-  nameWithType: Database.ProcessAsync(AsyncConnectExecution)
-- uid: DirectSQL.Database.ProcessAsync(DirectSQL.AsyncSqlExecution)
-  name: ProcessAsync(AsyncSqlExecution)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ProcessAsync_DirectSQL_AsyncSqlExecution_
-  commentId: M:DirectSQL.Database.ProcessAsync(DirectSQL.AsyncSqlExecution)
-  fullName: DirectSQL.Database.ProcessAsync(DirectSQL.AsyncSqlExecution)
-  nameWithType: Database.ProcessAsync(AsyncSqlExecution)
-- uid: DirectSQL.Database.ProcessAsync*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Process
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Process
+  nameWithType: Database<C, T, CMD, R, P>.Process
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Process
+- uid: DirectSQL.Database`5.ProcessAsync(DirectSQL.AsyncConnectExecution{`0})
+  name: ProcessAsync(AsyncConnectExecution<C>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ProcessAsync_DirectSQL_AsyncConnectExecution__0__
+  commentId: M:DirectSQL.Database`5.ProcessAsync(DirectSQL.AsyncConnectExecution{`0})
+  name.vb: ProcessAsync(AsyncConnectExecution(Of C))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ProcessAsync(DirectSQL.AsyncConnectExecution<C>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ProcessAsync(DirectSQL.AsyncConnectExecution(Of C))
+  nameWithType: Database<C, T, CMD, R, P>.ProcessAsync(AsyncConnectExecution<C>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ProcessAsync(AsyncConnectExecution(Of C))
+- uid: DirectSQL.Database`5.ProcessAsync(DirectSQL.AsyncSqlExecution{`0,`1})
+  name: ProcessAsync(AsyncSqlExecution<C, T>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ProcessAsync_DirectSQL_AsyncSqlExecution__0__1__
+  commentId: M:DirectSQL.Database`5.ProcessAsync(DirectSQL.AsyncSqlExecution{`0,`1})
+  name.vb: ProcessAsync(AsyncSqlExecution(Of C, T))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ProcessAsync(DirectSQL.AsyncSqlExecution<C, T>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ProcessAsync(DirectSQL.AsyncSqlExecution(Of C, T))
+  nameWithType: Database<C, T, CMD, R, P>.ProcessAsync(AsyncSqlExecution<C, T>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ProcessAsync(AsyncSqlExecution(Of C, T))
+- uid: DirectSQL.Database`5.ProcessAsync*
   name: ProcessAsync
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_ProcessAsync_
-  commentId: Overload:DirectSQL.Database.ProcessAsync
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ProcessAsync_
+  commentId: Overload:DirectSQL.Database`5.ProcessAsync
   isSpec: "True"
-  fullName: DirectSQL.Database.ProcessAsync
-  nameWithType: Database.ProcessAsync
-- uid: DirectSQL.Database.Query(System.String,System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)
-  name: Query(String, IDbConnection, IDbTransaction, ReadSqlResult)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_Query_System_String_System_Data_IDbConnection_System_Data_IDbTransaction_DirectSQL_ReadSqlResult_
-  commentId: M:DirectSQL.Database.Query(System.String,System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)
-  fullName: DirectSQL.Database.Query(System.String, System.Data.IDbConnection, System.Data.IDbTransaction, DirectSQL.ReadSqlResult)
-  nameWithType: Database.Query(String, IDbConnection, IDbTransaction, ReadSqlResult)
-- uid: DirectSQL.Database.Query(System.String,System.ValueTuple{System.String,System.Object}[],System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)
-  name: Query(String, (String name, Object value)[], IDbConnection, IDbTransaction, ReadSqlResult)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_Query_System_String_System_ValueTuple_System_String_System_Object____System_Data_IDbConnection_System_Data_IDbTransaction_DirectSQL_ReadSqlResult_
-  commentId: M:DirectSQL.Database.Query(System.String,System.ValueTuple{System.String,System.Object}[],System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)
-  name.vb: Query(String, (name As String, value As Object)(), IDbConnection, IDbTransaction, ReadSqlResult)
-  fullName: DirectSQL.Database.Query(System.String, System.ValueTuple<System.String, System.Object>[], System.Data.IDbConnection, System.Data.IDbTransaction, DirectSQL.ReadSqlResult)
-  fullName.vb: DirectSQL.Database.Query(System.String, System.ValueTuple(Of System.String, System.Object)(), System.Data.IDbConnection, System.Data.IDbTransaction, DirectSQL.ReadSqlResult)
-  nameWithType: Database.Query(String, (String name, Object value)[], IDbConnection, IDbTransaction, ReadSqlResult)
-  nameWithType.vb: Database.Query(String, (name As String, value As Object)(), IDbConnection, IDbTransaction, ReadSqlResult)
-- uid: DirectSQL.Database.Query*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ProcessAsync
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ProcessAsync
+  nameWithType: Database<C, T, CMD, R, P>.ProcessAsync
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ProcessAsync
+- uid: DirectSQL.Database`5.Query(System.String,`0,`1,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name: Query(String, C, T, ReadSqlResult<R, CMD, T, C, P>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Query_System_String__0__1_DirectSQL_ReadSqlResult__3__2__1__0__4__
+  commentId: M:DirectSQL.Database`5.Query(System.String,`0,`1,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name.vb: Query(String, C, T, ReadSqlResult(Of R, CMD, T, C, P))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Query(System.String, C, T, DirectSQL.ReadSqlResult<R, CMD, T, C, P>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Query(System.String, C, T, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
+  nameWithType: Database<C, T, CMD, R, P>.Query(String, C, T, ReadSqlResult<R, CMD, T, C, P>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Query(String, C, T, ReadSqlResult(Of R, CMD, T, C, P))
+- uid: DirectSQL.Database`5.Query(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name: Query(String, (String name, Object value)[], C, T, ReadSqlResult<R, CMD, T, C, P>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Query_System_String_System_ValueTuple_System_String_System_Object_____0__1_DirectSQL_ReadSqlResult__3__2__1__0__4__
+  commentId: M:DirectSQL.Database`5.Query(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name.vb: Query(String, (name As String, value As Object)(), C, T, ReadSqlResult(Of R, CMD, T, C, P))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Query(System.String, System.ValueTuple<System.String, System.Object>[], C, T, DirectSQL.ReadSqlResult<R, CMD, T, C, P>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Query(System.String, System.ValueTuple(Of System.String, System.Object)(), C, T, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
+  nameWithType: Database<C, T, CMD, R, P>.Query(String, (String name, Object value)[], C, T, ReadSqlResult<R, CMD, T, C, P>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Query(String, (name As String, value As Object)(), C, T, ReadSqlResult(Of R, CMD, T, C, P))
+- uid: DirectSQL.Database`5.Query*
   name: Query
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_Query_
-  commentId: Overload:DirectSQL.Database.Query
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Query_
+  commentId: Overload:DirectSQL.Database`5.Query
   isSpec: "True"
-  fullName: DirectSQL.Database.Query
-  nameWithType: Database.Query
-- uid: DirectSQL.Database.QueryFormattable(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)
-  name: QueryFormattable(FormattableString, IDbConnection, IDbTransaction, ReadSqlResult)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_QueryFormattable_System_FormattableString_System_Data_IDbConnection_System_Data_IDbTransaction_DirectSQL_ReadSqlResult_
-  commentId: M:DirectSQL.Database.QueryFormattable(System.FormattableString,System.Data.IDbConnection,System.Data.IDbTransaction,DirectSQL.ReadSqlResult)
-  fullName: DirectSQL.Database.QueryFormattable(System.FormattableString, System.Data.IDbConnection, System.Data.IDbTransaction, DirectSQL.ReadSqlResult)
-  nameWithType: Database.QueryFormattable(FormattableString, IDbConnection, IDbTransaction, ReadSqlResult)
-- uid: DirectSQL.Database.QueryFormattable*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Query
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Query
+  nameWithType: Database<C, T, CMD, R, P>.Query
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Query
+- uid: DirectSQL.Database`5.QueryFormattable(System.FormattableString,`0,`1,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name: QueryFormattable(FormattableString, C, T, ReadSqlResult<R, CMD, T, C, P>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_QueryFormattable_System_FormattableString__0__1_DirectSQL_ReadSqlResult__3__2__1__0__4__
+  commentId: M:DirectSQL.Database`5.QueryFormattable(System.FormattableString,`0,`1,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name.vb: QueryFormattable(FormattableString, C, T, ReadSqlResult(Of R, CMD, T, C, P))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.QueryFormattable(System.FormattableString, C, T, DirectSQL.ReadSqlResult<R, CMD, T, C, P>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).QueryFormattable(System.FormattableString, C, T, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
+  nameWithType: Database<C, T, CMD, R, P>.QueryFormattable(FormattableString, C, T, ReadSqlResult<R, CMD, T, C, P>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).QueryFormattable(FormattableString, C, T, ReadSqlResult(Of R, CMD, T, C, P))
+- uid: DirectSQL.Database`5.QueryFormattable*
   name: QueryFormattable
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_QueryFormattable_
-  commentId: Overload:DirectSQL.Database.QueryFormattable
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_QueryFormattable_
+  commentId: Overload:DirectSQL.Database`5.QueryFormattable
   isSpec: "True"
-  fullName: DirectSQL.Database.QueryFormattable
-  nameWithType: Database.QueryFormattable
-- uid: DirectSQL.Database.Transaction(System.Data.IDbConnection,DirectSQL.SqlExecution)
-  name: Transaction(IDbConnection, SqlExecution)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_Transaction_System_Data_IDbConnection_DirectSQL_SqlExecution_
-  commentId: M:DirectSQL.Database.Transaction(System.Data.IDbConnection,DirectSQL.SqlExecution)
-  fullName: DirectSQL.Database.Transaction(System.Data.IDbConnection, DirectSQL.SqlExecution)
-  nameWithType: Database.Transaction(IDbConnection, SqlExecution)
-- uid: DirectSQL.Database.Transaction*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.QueryFormattable
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).QueryFormattable
+  nameWithType: Database<C, T, CMD, R, P>.QueryFormattable
+  nameWithType.vb: Database(Of C, T, CMD, R, P).QueryFormattable
+- uid: DirectSQL.Database`5.Transaction(`0,DirectSQL.SqlExecution{`0,`1})
+  name: Transaction(C, SqlExecution<C, T>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Transaction__0_DirectSQL_SqlExecution__0__1__
+  commentId: M:DirectSQL.Database`5.Transaction(`0,DirectSQL.SqlExecution{`0,`1})
+  name.vb: Transaction(C, SqlExecution(Of C, T))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Transaction(C, DirectSQL.SqlExecution<C, T>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Transaction(C, DirectSQL.SqlExecution(Of C, T))
+  nameWithType: Database<C, T, CMD, R, P>.Transaction(C, SqlExecution<C, T>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Transaction(C, SqlExecution(Of C, T))
+- uid: DirectSQL.Database`5.Transaction*
   name: Transaction
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_Transaction_
-  commentId: Overload:DirectSQL.Database.Transaction
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Transaction_
+  commentId: Overload:DirectSQL.Database`5.Transaction
   isSpec: "True"
-  fullName: DirectSQL.Database.Transaction
-  nameWithType: Database.Transaction
-- uid: DirectSQL.Database.TransactionAsync(System.Data.IDbConnection,DirectSQL.AsyncSqlExecution)
-  name: TransactionAsync(IDbConnection, AsyncSqlExecution)
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_TransactionAsync_System_Data_IDbConnection_DirectSQL_AsyncSqlExecution_
-  commentId: M:DirectSQL.Database.TransactionAsync(System.Data.IDbConnection,DirectSQL.AsyncSqlExecution)
-  fullName: DirectSQL.Database.TransactionAsync(System.Data.IDbConnection, DirectSQL.AsyncSqlExecution)
-  nameWithType: Database.TransactionAsync(IDbConnection, AsyncSqlExecution)
-- uid: DirectSQL.Database.TransactionAsync*
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Transaction
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Transaction
+  nameWithType: Database<C, T, CMD, R, P>.Transaction
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Transaction
+- uid: DirectSQL.Database`5.TransactionAsync(`0,DirectSQL.AsyncSqlExecution{`0,`1})
+  name: TransactionAsync(C, AsyncSqlExecution<C, T>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_TransactionAsync__0_DirectSQL_AsyncSqlExecution__0__1__
+  commentId: M:DirectSQL.Database`5.TransactionAsync(`0,DirectSQL.AsyncSqlExecution{`0,`1})
+  name.vb: TransactionAsync(C, AsyncSqlExecution(Of C, T))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.TransactionAsync(C, DirectSQL.AsyncSqlExecution<C, T>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).TransactionAsync(C, DirectSQL.AsyncSqlExecution(Of C, T))
+  nameWithType: Database<C, T, CMD, R, P>.TransactionAsync(C, AsyncSqlExecution<C, T>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).TransactionAsync(C, AsyncSqlExecution(Of C, T))
+- uid: DirectSQL.Database`5.TransactionAsync*
   name: TransactionAsync
-  href: doc/api/DirectSQL.Database.html#DirectSQL_Database_TransactionAsync_
-  commentId: Overload:DirectSQL.Database.TransactionAsync
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_TransactionAsync_
+  commentId: Overload:DirectSQL.Database`5.TransactionAsync
   isSpec: "True"
-  fullName: DirectSQL.Database.TransactionAsync
-  nameWithType: Database.TransactionAsync
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.TransactionAsync
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).TransactionAsync
+  nameWithType: Database<C, T, CMD, R, P>.TransactionAsync
+  nameWithType.vb: Database(Of C, T, CMD, R, P).TransactionAsync
 - uid: DirectSQL.DatabaseException
   name: DatabaseException
   href: doc/api/DirectSQL.DatabaseException.html
@@ -257,19 +342,6 @@ references:
   isSpec: "True"
   fullName: DirectSQL.DB2.DB2Database.CreateConnection
   nameWithType: DB2Database.CreateConnection
-- uid: DirectSQL.DB2.DB2Database.CreateDB2Parameter(System.String,System.Object)
-  name: CreateDB2Parameter(String, Object)
-  href: doc/api/DirectSQL.DB2.DB2Database.html#DirectSQL_DB2_DB2Database_CreateDB2Parameter_System_String_System_Object_
-  commentId: M:DirectSQL.DB2.DB2Database.CreateDB2Parameter(System.String,System.Object)
-  fullName: DirectSQL.DB2.DB2Database.CreateDB2Parameter(System.String, System.Object)
-  nameWithType: DB2Database.CreateDB2Parameter(String, Object)
-- uid: DirectSQL.DB2.DB2Database.CreateDB2Parameter*
-  name: CreateDB2Parameter
-  href: doc/api/DirectSQL.DB2.DB2Database.html#DirectSQL_DB2_DB2Database_CreateDB2Parameter_
-  commentId: Overload:DirectSQL.DB2.DB2Database.CreateDB2Parameter
-  isSpec: "True"
-  fullName: DirectSQL.DB2.DB2Database.CreateDB2Parameter
-  nameWithType: DB2Database.CreateDB2Parameter
 - uid: DirectSQL.MySql
   name: DirectSQL.MySql
   href: doc/api/DirectSQL.MySql.html
@@ -308,19 +380,6 @@ references:
   isSpec: "True"
   fullName: DirectSQL.MySql.MySqlDatabase.CreateConnection
   nameWithType: MySqlDatabase.CreateConnection
-- uid: DirectSQL.MySql.MySqlDatabase.CreateMySqlParameter(System.String,System.Object)
-  name: CreateMySqlParameter(String, Object)
-  href: doc/api/DirectSQL.MySql.MySqlDatabase.html#DirectSQL_MySql_MySqlDatabase_CreateMySqlParameter_System_String_System_Object_
-  commentId: M:DirectSQL.MySql.MySqlDatabase.CreateMySqlParameter(System.String,System.Object)
-  fullName: DirectSQL.MySql.MySqlDatabase.CreateMySqlParameter(System.String, System.Object)
-  nameWithType: MySqlDatabase.CreateMySqlParameter(String, Object)
-- uid: DirectSQL.MySql.MySqlDatabase.CreateMySqlParameter*
-  name: CreateMySqlParameter
-  href: doc/api/DirectSQL.MySql.MySqlDatabase.html#DirectSQL_MySql_MySqlDatabase_CreateMySqlParameter_
-  commentId: Overload:DirectSQL.MySql.MySqlDatabase.CreateMySqlParameter
-  isSpec: "True"
-  fullName: DirectSQL.MySql.MySqlDatabase.CreateMySqlParameter
-  nameWithType: MySqlDatabase.CreateMySqlParameter
 - uid: DirectSQL.Npgsql
   name: DirectSQL.Npgsql
   href: doc/api/DirectSQL.Npgsql.html
@@ -359,31 +418,24 @@ references:
   isSpec: "True"
   fullName: DirectSQL.Npgsql.NpgsqlDatabase.CreateConnection
   nameWithType: NpgsqlDatabase.CreateConnection
-- uid: DirectSQL.Npgsql.NpgsqlDatabase.CreateNpgsqlParameter(System.String,System.Object)
-  name: CreateNpgsqlParameter(String, Object)
-  href: doc/api/DirectSQL.Npgsql.NpgsqlDatabase.html#DirectSQL_Npgsql_NpgsqlDatabase_CreateNpgsqlParameter_System_String_System_Object_
-  commentId: M:DirectSQL.Npgsql.NpgsqlDatabase.CreateNpgsqlParameter(System.String,System.Object)
-  fullName: DirectSQL.Npgsql.NpgsqlDatabase.CreateNpgsqlParameter(System.String, System.Object)
-  nameWithType: NpgsqlDatabase.CreateNpgsqlParameter(String, Object)
-- uid: DirectSQL.Npgsql.NpgsqlDatabase.CreateNpgsqlParameter*
-  name: CreateNpgsqlParameter
-  href: doc/api/DirectSQL.Npgsql.NpgsqlDatabase.html#DirectSQL_Npgsql_NpgsqlDatabase_CreateNpgsqlParameter_
-  commentId: Overload:DirectSQL.Npgsql.NpgsqlDatabase.CreateNpgsqlParameter
-  isSpec: "True"
-  fullName: DirectSQL.Npgsql.NpgsqlDatabase.CreateNpgsqlParameter
-  nameWithType: NpgsqlDatabase.CreateNpgsqlParameter
-- uid: DirectSQL.ReadSqlResult
-  name: ReadSqlResult
-  href: doc/api/DirectSQL.ReadSqlResult.html
-  commentId: T:DirectSQL.ReadSqlResult
-  fullName: DirectSQL.ReadSqlResult
-  nameWithType: ReadSqlResult
-- uid: DirectSQL.SqlExecution
-  name: SqlExecution
-  href: doc/api/DirectSQL.SqlExecution.html
-  commentId: T:DirectSQL.SqlExecution
-  fullName: DirectSQL.SqlExecution
-  nameWithType: SqlExecution
+- uid: DirectSQL.ReadSqlResult`5
+  name: ReadSqlResult<R, CMD, T, C, P>
+  href: doc/api/DirectSQL.ReadSqlResult-5.html
+  commentId: T:DirectSQL.ReadSqlResult`5
+  name.vb: ReadSqlResult(Of R, CMD, T, C, P)
+  fullName: DirectSQL.ReadSqlResult<R, CMD, T, C, P>
+  fullName.vb: DirectSQL.ReadSqlResult(Of R, CMD, T, C, P)
+  nameWithType: ReadSqlResult<R, CMD, T, C, P>
+  nameWithType.vb: ReadSqlResult(Of R, CMD, T, C, P)
+- uid: DirectSQL.SqlExecution`2
+  name: SqlExecution<C, T>
+  href: doc/api/DirectSQL.SqlExecution-2.html
+  commentId: T:DirectSQL.SqlExecution`2
+  name.vb: SqlExecution(Of C, T)
+  fullName: DirectSQL.SqlExecution<C, T>
+  fullName.vb: DirectSQL.SqlExecution(Of C, T)
+  nameWithType: SqlExecution<C, T>
+  nameWithType.vb: SqlExecution(Of C, T)
 - uid: DirectSQL.SqlLite
   name: DirectSQL.SqlLite
   href: doc/api/DirectSQL.SqlLite.html
@@ -422,161 +474,187 @@ references:
   isSpec: "True"
   fullName: DirectSQL.SqlLite.SqlLiteDatabase.CreateConnection
   nameWithType: SqlLiteDatabase.CreateConnection
-- uid: DirectSQL.SqlLite.SqlLiteDatabase.CreateSQLiteParameter(System.String,System.Object)
-  name: CreateSQLiteParameter(String, Object)
-  href: doc/api/DirectSQL.SqlLite.SqlLiteDatabase.html#DirectSQL_SqlLite_SqlLiteDatabase_CreateSQLiteParameter_System_String_System_Object_
-  commentId: M:DirectSQL.SqlLite.SqlLiteDatabase.CreateSQLiteParameter(System.String,System.Object)
-  fullName: DirectSQL.SqlLite.SqlLiteDatabase.CreateSQLiteParameter(System.String, System.Object)
-  nameWithType: SqlLiteDatabase.CreateSQLiteParameter(String, Object)
-- uid: DirectSQL.SqlLite.SqlLiteDatabase.CreateSQLiteParameter*
-  name: CreateSQLiteParameter
-  href: doc/api/DirectSQL.SqlLite.SqlLiteDatabase.html#DirectSQL_SqlLite_SqlLiteDatabase_CreateSQLiteParameter_
-  commentId: Overload:DirectSQL.SqlLite.SqlLiteDatabase.CreateSQLiteParameter
-  isSpec: "True"
-  fullName: DirectSQL.SqlLite.SqlLiteDatabase.CreateSQLiteParameter
-  nameWithType: SqlLiteDatabase.CreateSQLiteParameter
-- uid: DirectSQL.SqlResult
-  name: SqlResult
-  href: doc/api/DirectSQL.SqlResult.html
-  commentId: T:DirectSQL.SqlResult
-  fullName: DirectSQL.SqlResult
-  nameWithType: SqlResult
-- uid: DirectSQL.SqlResult.AsEnumerable*
+- uid: DirectSQL.SqlResult`5
+  name: SqlResult<R, CMD, T, C, P>
+  href: doc/api/DirectSQL.SqlResult-5.html
+  commentId: T:DirectSQL.SqlResult`5
+  name.vb: SqlResult(Of R, CMD, T, C, P)
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P)
+  nameWithType: SqlResult<R, CMD, T, C, P>
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P)
+- uid: DirectSQL.SqlResult`5.AsEnumerable*
   name: AsEnumerable
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_AsEnumerable_
-  commentId: Overload:DirectSQL.SqlResult.AsEnumerable
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_AsEnumerable_
+  commentId: Overload:DirectSQL.SqlResult`5.AsEnumerable
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.AsEnumerable
-  nameWithType: SqlResult.AsEnumerable
-- uid: DirectSQL.SqlResult.AsEnumerable``1(System.Func{System.Object,``0})
-  name: AsEnumerable<T>(Func<Object, T>)
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_AsEnumerable__1_System_Func_System_Object___0__
-  commentId: M:DirectSQL.SqlResult.AsEnumerable``1(System.Func{System.Object,``0})
-  name.vb: AsEnumerable(Of T)(Func(Of Object, T))
-  fullName: DirectSQL.SqlResult.AsEnumerable<T>(System.Func<System.Object, T>)
-  fullName.vb: DirectSQL.SqlResult.AsEnumerable(Of T)(System.Func(Of System.Object, T))
-  nameWithType: SqlResult.AsEnumerable<T>(Func<Object, T>)
-  nameWithType.vb: SqlResult.AsEnumerable(Of T)(Func(Of Object, T))
-- uid: DirectSQL.SqlResult.Command
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.AsEnumerable
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).AsEnumerable
+  nameWithType: SqlResult<R, CMD, T, C, P>.AsEnumerable
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).AsEnumerable
+- uid: DirectSQL.SqlResult`5.AsEnumerable``1(System.Func{System.Object,``0})
+  name: AsEnumerable<TP>(Func<Object, TP>)
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_AsEnumerable__1_System_Func_System_Object___0__
+  commentId: M:DirectSQL.SqlResult`5.AsEnumerable``1(System.Func{System.Object,``0})
+  name.vb: AsEnumerable(Of TP)(Func(Of Object, TP))
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.AsEnumerable<TP>(System.Func<System.Object, TP>)
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).AsEnumerable(Of TP)(System.Func(Of System.Object, TP))
+  nameWithType: SqlResult<R, CMD, T, C, P>.AsEnumerable<TP>(Func<Object, TP>)
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).AsEnumerable(Of TP)(Func(Of Object, TP))
+- uid: DirectSQL.SqlResult`5.Command
   name: Command
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Command
-  commentId: P:DirectSQL.SqlResult.Command
-  fullName: DirectSQL.SqlResult.Command
-  nameWithType: SqlResult.Command
-- uid: DirectSQL.SqlResult.Command*
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Command
+  commentId: P:DirectSQL.SqlResult`5.Command
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Command
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Command
+  nameWithType: SqlResult<R, CMD, T, C, P>.Command
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Command
+- uid: DirectSQL.SqlResult`5.Command*
   name: Command
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Command_
-  commentId: Overload:DirectSQL.SqlResult.Command
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Command_
+  commentId: Overload:DirectSQL.SqlResult`5.Command
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.Command
-  nameWithType: SqlResult.Command
-- uid: DirectSQL.SqlResult.Dispose
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Command
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Command
+  nameWithType: SqlResult<R, CMD, T, C, P>.Command
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Command
+- uid: DirectSQL.SqlResult`5.Dispose
   name: Dispose()
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Dispose
-  commentId: M:DirectSQL.SqlResult.Dispose
-  fullName: DirectSQL.SqlResult.Dispose()
-  nameWithType: SqlResult.Dispose()
-- uid: DirectSQL.SqlResult.Dispose*
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Dispose
+  commentId: M:DirectSQL.SqlResult`5.Dispose
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Dispose()
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Dispose()
+  nameWithType: SqlResult<R, CMD, T, C, P>.Dispose()
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Dispose()
+- uid: DirectSQL.SqlResult`5.Dispose*
   name: Dispose
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Dispose_
-  commentId: Overload:DirectSQL.SqlResult.Dispose
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Dispose_
+  commentId: Overload:DirectSQL.SqlResult`5.Dispose
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.Dispose
-  nameWithType: SqlResult.Dispose
-- uid: DirectSQL.SqlResult.Next
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Dispose
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Dispose
+  nameWithType: SqlResult<R, CMD, T, C, P>.Dispose
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Dispose
+- uid: DirectSQL.SqlResult`5.Next
   name: Next()
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Next
-  commentId: M:DirectSQL.SqlResult.Next
-  fullName: DirectSQL.SqlResult.Next()
-  nameWithType: SqlResult.Next()
-- uid: DirectSQL.SqlResult.Next*
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Next
+  commentId: M:DirectSQL.SqlResult`5.Next
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Next()
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Next()
+  nameWithType: SqlResult<R, CMD, T, C, P>.Next()
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Next()
+- uid: DirectSQL.SqlResult`5.Next*
   name: Next
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Next_
-  commentId: Overload:DirectSQL.SqlResult.Next
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Next_
+  commentId: Overload:DirectSQL.SqlResult`5.Next
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.Next
-  nameWithType: SqlResult.Next
-- uid: DirectSQL.SqlResult.Reader
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Next
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Next
+  nameWithType: SqlResult<R, CMD, T, C, P>.Next
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Next
+- uid: DirectSQL.SqlResult`5.Reader
   name: Reader
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Reader
-  commentId: P:DirectSQL.SqlResult.Reader
-  fullName: DirectSQL.SqlResult.Reader
-  nameWithType: SqlResult.Reader
-- uid: DirectSQL.SqlResult.Reader*
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Reader
+  commentId: P:DirectSQL.SqlResult`5.Reader
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Reader
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Reader
+  nameWithType: SqlResult<R, CMD, T, C, P>.Reader
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Reader
+- uid: DirectSQL.SqlResult`5.Reader*
   name: Reader
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Reader_
-  commentId: Overload:DirectSQL.SqlResult.Reader
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Reader_
+  commentId: Overload:DirectSQL.SqlResult`5.Reader
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.Reader
-  nameWithType: SqlResult.Reader
-- uid: DirectSQL.SqlResult.ResultFields
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Reader
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Reader
+  nameWithType: SqlResult<R, CMD, T, C, P>.Reader
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Reader
+- uid: DirectSQL.SqlResult`5.ResultFields
   name: ResultFields
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultFields
-  commentId: P:DirectSQL.SqlResult.ResultFields
-  fullName: DirectSQL.SqlResult.ResultFields
-  nameWithType: SqlResult.ResultFields
-- uid: DirectSQL.SqlResult.ResultFields*
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_ResultFields
+  commentId: P:DirectSQL.SqlResult`5.ResultFields
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.ResultFields
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).ResultFields
+  nameWithType: SqlResult<R, CMD, T, C, P>.ResultFields
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).ResultFields
+- uid: DirectSQL.SqlResult`5.ResultFields*
   name: ResultFields
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultFields_
-  commentId: Overload:DirectSQL.SqlResult.ResultFields
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_ResultFields_
+  commentId: Overload:DirectSQL.SqlResult`5.ResultFields
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.ResultFields
-  nameWithType: SqlResult.ResultFields
-- uid: DirectSQL.SqlResult.ResultObject*
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.ResultFields
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).ResultFields
+  nameWithType: SqlResult<R, CMD, T, C, P>.ResultFields
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).ResultFields
+- uid: DirectSQL.SqlResult`5.ResultObject*
   name: ResultObject
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultObject_
-  commentId: Overload:DirectSQL.SqlResult.ResultObject
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_ResultObject_
+  commentId: Overload:DirectSQL.SqlResult`5.ResultObject
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.ResultObject
-  nameWithType: SqlResult.ResultObject
-- uid: DirectSQL.SqlResult.ResultObject``1(System.Func{System.Object,``0})
-  name: ResultObject<T>(Func<Object, T>)
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultObject__1_System_Func_System_Object___0__
-  commentId: M:DirectSQL.SqlResult.ResultObject``1(System.Func{System.Object,``0})
-  name.vb: ResultObject(Of T)(Func(Of Object, T))
-  fullName: DirectSQL.SqlResult.ResultObject<T>(System.Func<System.Object, T>)
-  fullName.vb: DirectSQL.SqlResult.ResultObject(Of T)(System.Func(Of System.Object, T))
-  nameWithType: SqlResult.ResultObject<T>(Func<Object, T>)
-  nameWithType.vb: SqlResult.ResultObject(Of T)(Func(Of Object, T))
-- uid: DirectSQL.SqlResult.ResultTuples
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.ResultObject
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).ResultObject
+  nameWithType: SqlResult<R, CMD, T, C, P>.ResultObject
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).ResultObject
+- uid: DirectSQL.SqlResult`5.ResultObject``1(System.Func{System.Object,``0})
+  name: ResultObject<TP>(Func<Object, TP>)
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_ResultObject__1_System_Func_System_Object___0__
+  commentId: M:DirectSQL.SqlResult`5.ResultObject``1(System.Func{System.Object,``0})
+  name.vb: ResultObject(Of TP)(Func(Of Object, TP))
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.ResultObject<TP>(System.Func<System.Object, TP>)
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).ResultObject(Of TP)(System.Func(Of System.Object, TP))
+  nameWithType: SqlResult<R, CMD, T, C, P>.ResultObject<TP>(Func<Object, TP>)
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).ResultObject(Of TP)(Func(Of Object, TP))
+- uid: DirectSQL.SqlResult`5.ResultTuples
   name: ResultTuples
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultTuples
-  commentId: P:DirectSQL.SqlResult.ResultTuples
-  fullName: DirectSQL.SqlResult.ResultTuples
-  nameWithType: SqlResult.ResultTuples
-- uid: DirectSQL.SqlResult.ResultTuples*
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_ResultTuples
+  commentId: P:DirectSQL.SqlResult`5.ResultTuples
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.ResultTuples
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).ResultTuples
+  nameWithType: SqlResult<R, CMD, T, C, P>.ResultTuples
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).ResultTuples
+- uid: DirectSQL.SqlResult`5.ResultTuples*
   name: ResultTuples
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultTuples_
-  commentId: Overload:DirectSQL.SqlResult.ResultTuples
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_ResultTuples_
+  commentId: Overload:DirectSQL.SqlResult`5.ResultTuples
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.ResultTuples
-  nameWithType: SqlResult.ResultTuples
-- uid: DirectSQL.SqlResult.ResultValues
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.ResultTuples
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).ResultTuples
+  nameWithType: SqlResult<R, CMD, T, C, P>.ResultTuples
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).ResultTuples
+- uid: DirectSQL.SqlResult`5.ResultValues
   name: ResultValues
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultValues
-  commentId: P:DirectSQL.SqlResult.ResultValues
-  fullName: DirectSQL.SqlResult.ResultValues
-  nameWithType: SqlResult.ResultValues
-- uid: DirectSQL.SqlResult.ResultValues*
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_ResultValues
+  commentId: P:DirectSQL.SqlResult`5.ResultValues
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.ResultValues
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).ResultValues
+  nameWithType: SqlResult<R, CMD, T, C, P>.ResultValues
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).ResultValues
+- uid: DirectSQL.SqlResult`5.ResultValues*
   name: ResultValues
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_ResultValues_
-  commentId: Overload:DirectSQL.SqlResult.ResultValues
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_ResultValues_
+  commentId: Overload:DirectSQL.SqlResult`5.ResultValues
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.ResultValues
-  nameWithType: SqlResult.ResultValues
-- uid: DirectSQL.SqlResult.Sql
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.ResultValues
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).ResultValues
+  nameWithType: SqlResult<R, CMD, T, C, P>.ResultValues
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).ResultValues
+- uid: DirectSQL.SqlResult`5.Sql
   name: Sql
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Sql
-  commentId: P:DirectSQL.SqlResult.Sql
-  fullName: DirectSQL.SqlResult.Sql
-  nameWithType: SqlResult.Sql
-- uid: DirectSQL.SqlResult.Sql*
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Sql
+  commentId: P:DirectSQL.SqlResult`5.Sql
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Sql
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Sql
+  nameWithType: SqlResult<R, CMD, T, C, P>.Sql
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Sql
+- uid: DirectSQL.SqlResult`5.Sql*
   name: Sql
-  href: doc/api/DirectSQL.SqlResult.html#DirectSQL_SqlResult_Sql_
-  commentId: Overload:DirectSQL.SqlResult.Sql
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Sql_
+  commentId: Overload:DirectSQL.SqlResult`5.Sql
   isSpec: "True"
-  fullName: DirectSQL.SqlResult.Sql
-  nameWithType: SqlResult.Sql
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.Sql
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Sql
+  nameWithType: SqlResult<R, CMD, T, C, P>.Sql
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Sql
 - uid: DirectSQL.SqlServer
   name: DirectSQL.SqlServer
   href: doc/api/DirectSQL.SqlServer.html
@@ -615,16 +693,3 @@ references:
   isSpec: "True"
   fullName: DirectSQL.SqlServer.SqlServerDatabase.CreateConnection
   nameWithType: SqlServerDatabase.CreateConnection
-- uid: DirectSQL.SqlServer.SqlServerDatabase.CreateSqlParameter(System.String,System.Object)
-  name: CreateSqlParameter(String, Object)
-  href: doc/api/DirectSQL.SqlServer.SqlServerDatabase.html#DirectSQL_SqlServer_SqlServerDatabase_CreateSqlParameter_System_String_System_Object_
-  commentId: M:DirectSQL.SqlServer.SqlServerDatabase.CreateSqlParameter(System.String,System.Object)
-  fullName: DirectSQL.SqlServer.SqlServerDatabase.CreateSqlParameter(System.String, System.Object)
-  nameWithType: SqlServerDatabase.CreateSqlParameter(String, Object)
-- uid: DirectSQL.SqlServer.SqlServerDatabase.CreateSqlParameter*
-  name: CreateSqlParameter
-  href: doc/api/DirectSQL.SqlServer.SqlServerDatabase.html#DirectSQL_SqlServer_SqlServerDatabase_CreateSqlParameter_
-  commentId: Overload:DirectSQL.SqlServer.SqlServerDatabase.CreateSqlParameter
-  isSpec: "True"
-  fullName: DirectSQL.SqlServer.SqlServerDatabase.CreateSqlParameter
-  nameWithType: SqlServerDatabase.CreateSqlParameter

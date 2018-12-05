@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace DirectSQL
+    <title>Delegate SqlExecution&lt;C, T&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace DirectSQL
+    <meta name="title" content="Delegate SqlExecution&lt;C, T&gt;
    ">
     <meta name="generator" content="docfx 2.40.2.0">
     
@@ -68,40 +68,64 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DirectSQL">
+            <article class="content wrap" id="_content" data-uid="DirectSQL.SqlExecution`2">
   
-  <h1 id="DirectSQL" data-uid="DirectSQL" class="text-break">Namespace DirectSQL
+  
+  <h1 id="DirectSQL_SqlExecution_2" data-uid="DirectSQL.SqlExecution`2" class="text-break">Delegate SqlExecution&lt;C, T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Execute a sql with a connection and a transaction.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="DirectSQL.Database-5.html">Database&lt;C, T, CMD, R, P&gt;</a></h4>
-      <section><p>Database class is entry point of DirectSQL library.</p>
-</section>
-      <h4><a class="xref" href="DirectSQL.DatabaseException.html">DatabaseException</a></h4>
-      <section></section>
-      <h4><a class="xref" href="DirectSQL.SqlResult-5.html">SqlResult&lt;R, CMD, T, C, P&gt;</a></h4>
-      <section><p>Object to get result of SQL</p>
-</section>
-    <h3 id="delegates">Delegates
-  </h3>
-      <h4><a class="xref" href="DirectSQL.AsyncConnectExecution-1.html">AsyncConnectExecution&lt;C&gt;</a></h4>
-      <section><p>Do something asynchronously with a connection.</p>
-</section>
-      <h4><a class="xref" href="DirectSQL.AsyncSqlExecution-2.html">AsyncSqlExecution&lt;C, T&gt;</a></h4>
-      <section><p>Execute a sql asynchronously with a connection and a transaction.</p>
-</section>
-      <h4><a class="xref" href="DirectSQL.ConnectExecution-1.html">ConnectExecution&lt;C&gt;</a></h4>
-      <section><p>Do something with a connection</p>
-</section>
-      <h4><a class="xref" href="DirectSQL.ReadSqlResult-5.html">ReadSqlResult&lt;R, CMD, T, C, P&gt;</a></h4>
-      <section><p>Read sql result.</p>
-</section>
-      <h4><a class="xref" href="DirectSQL.SqlExecution-2.html">SqlExecution&lt;C, T&gt;</a></h4>
-      <section><p>Execute a sql with a connection and a transaction.</p>
-</section>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DirectSQL.html">DirectSQL</a></h6>
+  <h6><strong>Assembly</strong>: DirectSQL.dll</h6>
+  <h5 id="DirectSQL_SqlExecution_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public delegate void SqlExecution&lt;C, T&gt;(C connection, T transaction)
+    where C : IDbConnection where T : IDbTransaction;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">C</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td><p>a connection</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td><p>a transaction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">C</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
