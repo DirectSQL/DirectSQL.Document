@@ -102,8 +102,8 @@
 			.SqlResult
 			.LoadSqlResult(
 				&quot;select TEST_COL1,TEST_COL2 from TEST_TABLE&quot;,
-				conn,
-				tran);
+				connection,
+				transaction);
 
         Console.Out.WriteLine(&quot;TEST_VAL1:&quot; + resultArray[0].TEST_VAL1);
         Console.Out.WriteLine(&quot;TEST_VAL2:&quot; + resultArray[0].TEST_VAL2);

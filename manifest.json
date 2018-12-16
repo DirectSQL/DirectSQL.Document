@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/intro.html",
-          "hash": "w9iDHPOXpcZkl8Xzae64+A=="
+          "hash": "fB1IhS3P4cvVjpf+sb/6iw=="
         }
       },
       "is_incremental": false,
@@ -323,11 +323,11 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
