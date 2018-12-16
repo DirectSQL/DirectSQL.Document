@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>An example </title>
+    <title> </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="An example ">
+    <meta name="title" content=" ">
     <meta name="generator" content="docfx 2.40.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -67,8 +67,8 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="an-example">An example</h1>
 
+<p>#Example1</p>
 <pre><code>public static void example()
 {
     SqlLiteDatabase db = new SqlLiteDatabase(&quot;connectionString_to_yourdb&quot;);
@@ -88,6 +88,26 @@
                 }
             }
         );
+    });
+}
+</code></pre>
+<p>#Example2</p>
+<pre><code>public static void example2()
+{
+    SqlLiteDatabase db = new SqlLiteDatabase(&quot;connectionString_to_yourdb&quot;);
+    db.Process((connection, transaction) =&gt;
+    {
+		dynamic[] resultArray =
+			SqlLiteDatabase
+			.SqlResult
+			.LoadSqlResult(
+				&quot;select TEST_COL1,TEST_COL2 from TEST_TABLE&quot;,
+				conn,
+				tran);
+
+        Console.Out.WriteLine(&quot;TEST_VAL1:&quot; + resultArray[0].TEST_VAL1);
+        Console.Out.WriteLine(&quot;TEST_VAL2:&quot; + resultArray[0].TEST_VAL2);
+
     });
 }
 </code></pre>

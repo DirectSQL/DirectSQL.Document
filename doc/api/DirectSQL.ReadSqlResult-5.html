@@ -81,6 +81,7 @@
   <h5 id="DirectSQL_ReadSqlResult_5_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public delegate void ReadSqlResult&lt;R, CMD, T, C, P&gt;(SqlResult&lt;R, CMD, T, C, P&gt; result)
+
     where R : IDataReader where CMD : IDbCommand where T : IDbTransaction where C : IDbConnection where P : IDataParameter, new();</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
