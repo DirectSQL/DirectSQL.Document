@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.AsyncConnectExecution-1.html",
-          "hash": "y9IYLFriJEdr682IvQry4w=="
+          "hash": "qS+SWpGSLu9Mz3hExASZRQ=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.AsyncSqlExecution-2.html",
-          "hash": "PayPHARAGqg1X+GqS9yG9g=="
+          "hash": "ie3FFk0BORqcDEEbpa+ehg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.ConnectExecution-1.html",
-          "hash": "x/UJbMZpbqVWSYpKTxPtlw=="
+          "hash": "bw7N6pJdaXLee8JHnxgZuA=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.DB2.DB2Database.html",
-          "hash": "xD5aVj8sTFNnCrV78XJUHw=="
+          "hash": "A2DM9haLBu4r2mtWALq++w=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,19 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.DB2.html",
-          "hash": "PSpVriskXYYkhHteKGCaJA=="
+          "hash": "tEByDbGYg1MuHrSmgI/P2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.Database-5.SqlResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.Database-5.SqlResult.html",
+          "hash": "/IzeUaBjVGT8Y41sLpdwTw=="
         }
       },
       "is_incremental": false,
@@ -69,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Database-5.html",
-          "hash": "OTyFhXBR2DLHb/y+pIOsFQ=="
+          "hash": "lDnWYMPq332496weOc1wfQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.DatabaseException.html",
-          "hash": "+xsXevf7/zPzVk8YrCBwqg=="
+          "hash": "3Z2FPr7I5+NwjmMkMVxdjg=="
         }
       },
       "is_incremental": false,
@@ -93,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.MySql.MySqlDatabase.html",
-          "hash": "O5T+VIcGhxFMRcZceAoYQw=="
+          "hash": "/CRdKznhr7beNZ+wF1cjZg=="
         }
       },
       "is_incremental": false,
@@ -105,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.MySql.html",
-          "hash": "JND5qR284nqLmjb8w8l+uw=="
+          "hash": "/4gFbaur1R0WlgIG2cayaw=="
         }
       },
       "is_incremental": false,
@@ -117,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Npgsql.NpgsqlDatabase.html",
-          "hash": "HE4DuZhV+QSMKaMih5wKWQ=="
+          "hash": "hjLXR9+142EjNpEWTvZe2w=="
         }
       },
       "is_incremental": false,
@@ -129,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Npgsql.html",
-          "hash": "hO/RGIO781t6oNmhw2aPvQ=="
+          "hash": "idjif9SOoyRAjpWTcABdlg=="
         }
       },
       "is_incremental": false,
@@ -141,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.ReadSqlResult-5.html",
-          "hash": "nkeVHMdZH44JSaHYbIl32Q=="
+          "hash": "8emabkm7+tmF7wkpg4D40Q=="
         }
       },
       "is_incremental": false,
@@ -153,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlExecution-2.html",
-          "hash": "rqGTOsdho3q7JisGXAwSDQ=="
+          "hash": "J2dr32Z15tOxwbvMINDQHw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlLite.SqlLiteDatabase.html",
-          "hash": "ZWo85ZHZGuc1DCknUTgaXA=="
+          "hash": "nOtFnezypHtLwZJUyvREMQ=="
         }
       },
       "is_incremental": false,
@@ -177,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlLite.html",
-          "hash": "VY/7+sFp15lpVWd49pMu5g=="
+          "hash": "cXij3RBYsnsQIsgYhFLjEA=="
         }
       },
       "is_incremental": false,
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlResult-5.html",
-          "hash": "OKsSS9RkXgSdXpRGXJT3tw=="
+          "hash": "NwpmEc3J2gNR0MICd7TXjA=="
         }
       },
       "is_incremental": false,
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlServer.SqlServerDatabase.html",
-          "hash": "tl0XOSa37IYuwXek2K8eGw=="
+          "hash": "YN6NJb5Xk8tjbXYsRnXzyQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlServer.html",
-          "hash": "IHAtmOEIQsLKGkl7VlMj9A=="
+          "hash": "xHEjC2ttTTgKw2+Cuhe1pg=="
         }
       },
       "is_incremental": false,
@@ -225,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.html",
-          "hash": "gwGLCOoDiUCnhyJmPx002Q=="
+          "hash": "WNTzPDIJ4UcMbENaAOF4uA=="
         }
       },
       "is_incremental": false,
@@ -237,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/index.html",
-          "hash": "iJ/VbCPE1b+5iQWnLIL2DQ=="
+          "hash": "LkGQnu+R05FWEfZ+PrLuLg=="
         }
       },
       "is_incremental": false,
@@ -249,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/toc.html",
-          "hash": "UprZKM2AAhKPjXHsvARbOA=="
+          "hash": "S9drT01L16obp1FEmQB/og=="
         }
       },
       "is_incremental": false,
@@ -261,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/intro.html",
-          "hash": "+7B0/RqQSBmaIOHZ3mdGqw=="
+          "hash": "bOEbmdqktF4x5MpgskuVSw=="
         }
       },
       "is_incremental": false,
@@ -285,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/index.html",
-          "hash": "ZJgJYjJY0jcle7XYJQs9Cw=="
+          "hash": "yOb9L9uDg0/usTOJTPFj1w=="
         }
       },
       "is_incremental": false,
@@ -308,7 +320,7 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "details": "Cannot build incrementally because docfx version changed from 2.40.2.0 to 2.40.4.0.",
         "incrementalPhase": "build"
       },
       "processors": {
@@ -329,8 +341,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}

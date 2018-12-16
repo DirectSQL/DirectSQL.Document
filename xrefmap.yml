@@ -262,6 +262,15 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).QueryFormattable
   nameWithType: Database<C, T, CMD, R, P>.QueryFormattable
   nameWithType.vb: Database(Of C, T, CMD, R, P).QueryFormattable
+- uid: DirectSQL.Database`5.SqlResult
+  name: Database<C, T, CMD, R, P>.SqlResult
+  href: doc/api/DirectSQL.Database-5.SqlResult.html
+  commentId: T:DirectSQL.Database`5.SqlResult
+  name.vb: Database(Of C, T, CMD, R, P).SqlResult
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.SqlResult
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).SqlResult
+  nameWithType: Database<C, T, CMD, R, P>.SqlResult
+  nameWithType.vb: Database(Of C, T, CMD, R, P).SqlResult
 - uid: DirectSQL.Database`5.Transaction(`0,DirectSQL.SqlExecution{`0,`1})
   name: Transaction(C, SqlExecution<C, T>)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Transaction__0_DirectSQL_SqlExecution__0__1__
@@ -535,6 +544,58 @@ references:
   fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Dispose
   nameWithType: SqlResult<R, CMD, T, C, P>.Dispose
   nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Dispose
+- uid: DirectSQL.SqlResult`5.LoadSqlResult(System.String,`3,`2)
+  name: LoadSqlResult(String, C, T)
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResult_System_String__3__2_
+  commentId: M:DirectSQL.SqlResult`5.LoadSqlResult(System.String,`3,`2)
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.LoadSqlResult(System.String, C, T)
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResult(System.String, C, T)
+  nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResult(String, C, T)
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResult(String, C, T)
+- uid: DirectSQL.SqlResult`5.LoadSqlResult(System.String,System.ValueTuple{System.String,System.Object}[],`3,`2)
+  name: LoadSqlResult(String, (String name, Object value)[], C, T)
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResult_System_String_System_ValueTuple_System_String_System_Object_____3__2_
+  commentId: M:DirectSQL.SqlResult`5.LoadSqlResult(System.String,System.ValueTuple{System.String,System.Object}[],`3,`2)
+  name.vb: LoadSqlResult(String, (name As String, value As Object)(), C, T)
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.LoadSqlResult(System.String, System.ValueTuple<System.String, System.Object>[], C, T)
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResult(System.String, System.ValueTuple(Of System.String, System.Object)(), C, T)
+  nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResult(String, (String name, Object value)[], C, T)
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResult(String, (name As String, value As Object)(), C, T)
+- uid: DirectSQL.SqlResult`5.LoadSqlResult*
+  name: LoadSqlResult
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResult_
+  commentId: Overload:DirectSQL.SqlResult`5.LoadSqlResult
+  isSpec: "True"
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.LoadSqlResult
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResult
+  nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResult
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResult
+- uid: DirectSQL.SqlResult`5.LoadSqlResultAsync(System.String,`3,`2)
+  name: LoadSqlResultAsync(String, C, T)
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResultAsync_System_String__3__2_
+  commentId: M:DirectSQL.SqlResult`5.LoadSqlResultAsync(System.String,`3,`2)
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.LoadSqlResultAsync(System.String, C, T)
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync(System.String, C, T)
+  nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResultAsync(String, C, T)
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync(String, C, T)
+- uid: DirectSQL.SqlResult`5.LoadSqlResultAsync(System.String,System.ValueTuple{System.String,System.Object}[],`3,`2)
+  name: LoadSqlResultAsync(String, (String name, Object value)[], C, T)
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResultAsync_System_String_System_ValueTuple_System_String_System_Object_____3__2_
+  commentId: M:DirectSQL.SqlResult`5.LoadSqlResultAsync(System.String,System.ValueTuple{System.String,System.Object}[],`3,`2)
+  name.vb: LoadSqlResultAsync(String, (name As String, value As Object)(), C, T)
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.LoadSqlResultAsync(System.String, System.ValueTuple<System.String, System.Object>[], C, T)
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync(System.String, System.ValueTuple(Of System.String, System.Object)(), C, T)
+  nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResultAsync(String, (String name, Object value)[], C, T)
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync(String, (name As String, value As Object)(), C, T)
+- uid: DirectSQL.SqlResult`5.LoadSqlResultAsync*
+  name: LoadSqlResultAsync
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResultAsync_
+  commentId: Overload:DirectSQL.SqlResult`5.LoadSqlResultAsync
+  isSpec: "True"
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.LoadSqlResultAsync
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync
+  nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResultAsync
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync
 - uid: DirectSQL.SqlResult`5.Next
   name: Next()
   href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_Next
