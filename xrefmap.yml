@@ -163,6 +163,58 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar
   nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar
   nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar
+- uid: DirectSQL.Database`5.LoadSqlResult(System.String,`0,`1)
+  name: LoadSqlResult(String, C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResult_System_String__0__1_
+  commentId: M:DirectSQL.Database`5.LoadSqlResult(System.String,`0,`1)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadSqlResult(System.String, C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResult(System.String, C, T)
+  nameWithType: Database<C, T, CMD, R, P>.LoadSqlResult(String, C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResult(String, C, T)
+- uid: DirectSQL.Database`5.LoadSqlResult(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
+  name: LoadSqlResult(String, (String, Object)[], C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResult_System_String_System_ValueTuple_System_String_System_Object_____0__1_
+  commentId: M:DirectSQL.Database`5.LoadSqlResult(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
+  name.vb: LoadSqlResult(String, (String, Object)(), C, T)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadSqlResult(System.String, System.ValueTuple<System.String, System.Object>[], C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResult(System.String, System.ValueTuple(Of System.String, System.Object)(), C, T)
+  nameWithType: Database<C, T, CMD, R, P>.LoadSqlResult(String, (String, Object)[], C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResult(String, (String, Object)(), C, T)
+- uid: DirectSQL.Database`5.LoadSqlResult*
+  name: LoadSqlResult
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResult_
+  commentId: Overload:DirectSQL.Database`5.LoadSqlResult
+  isSpec: "True"
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadSqlResult
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResult
+  nameWithType: Database<C, T, CMD, R, P>.LoadSqlResult
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResult
+- uid: DirectSQL.Database`5.LoadSqlResultAsync(System.String,`0,`1)
+  name: LoadSqlResultAsync(String, C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResultAsync_System_String__0__1_
+  commentId: M:DirectSQL.Database`5.LoadSqlResultAsync(System.String,`0,`1)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadSqlResultAsync(System.String, C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResultAsync(System.String, C, T)
+  nameWithType: Database<C, T, CMD, R, P>.LoadSqlResultAsync(String, C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResultAsync(String, C, T)
+- uid: DirectSQL.Database`5.LoadSqlResultAsync(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
+  name: LoadSqlResultAsync(String, (String, Object)[], C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResultAsync_System_String_System_ValueTuple_System_String_System_Object_____0__1_
+  commentId: M:DirectSQL.Database`5.LoadSqlResultAsync(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
+  name.vb: LoadSqlResultAsync(String, (String, Object)(), C, T)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadSqlResultAsync(System.String, System.ValueTuple<System.String, System.Object>[], C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResultAsync(System.String, System.ValueTuple(Of System.String, System.Object)(), C, T)
+  nameWithType: Database<C, T, CMD, R, P>.LoadSqlResultAsync(String, (String, Object)[], C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResultAsync(String, (String, Object)(), C, T)
+- uid: DirectSQL.Database`5.LoadSqlResultAsync*
+  name: LoadSqlResultAsync
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResultAsync_
+  commentId: Overload:DirectSQL.Database`5.LoadSqlResultAsync
+  isSpec: "True"
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadSqlResultAsync
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResultAsync
+  nameWithType: Database<C, T, CMD, R, P>.LoadSqlResultAsync
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResultAsync
 - uid: DirectSQL.Database`5.Process(DirectSQL.ConnectExecution{`0})
   name: Process(ConnectExecution<C>)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Process_DirectSQL_ConnectExecution__0__

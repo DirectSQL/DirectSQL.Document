@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.AsyncConnectExecution-1.html",
-          "hash": "v+NMEyQDn8cA8HM5Kp+Q+g=="
+          "hash": "oD8ppbRQS9bLecUsoCjjcQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.AsyncSqlExecution-2.html",
-          "hash": "Nzv1ytt0OVNkCbLSJVPdsw=="
+          "hash": "mlePbke+Wdv08XUmv6b7FQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.ConnectExecution-1.html",
-          "hash": "8PGgwP0gIINs1Ov1e2pqSg=="
+          "hash": "yFhTXitw+l8D6H7UTlv+2g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.DB2.DB2Database.html",
-          "hash": "cgCV30Fc3zV+/4O5TBuZVg=="
+          "hash": "utA7WzI4btYnn+MB1YxutA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "tEByDbGYg1MuHrSmgI/P2w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Database-5.SqlResult.html",
-          "hash": "tJTUNmsiM5i0yPzqmcHzYg=="
+          "hash": "92heheJaqctdnS8/xHEcbw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Database-5.html",
-          "hash": "JJ88X7FPqJaXGxt0OezWLw=="
+          "hash": "tsMP2IrZppP6tjHz7OzKQg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "rrZ79eMaIPHRqtTfxjSUzw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.MySql.MySqlDatabase.html",
-          "hash": "lpRtyx2MbgtdB488mNS8HA=="
+          "hash": "2wZuMCsedKvs/BThrYAwxA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "/4gFbaur1R0WlgIG2cayaw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Npgsql.NpgsqlDatabase.html",
-          "hash": "LzzKRuXGDfwGaKRdQ0XydQ=="
+          "hash": "MPh3WMQhomql/v6EriOLUA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "idjif9SOoyRAjpWTcABdlg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.ReadSqlResult-5.html",
-          "hash": "V39xgvJiqFtAPCC49EdJ9g=="
+          "hash": "6QXQaNaWMiRIBt3t+C8daw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlExecution-2.html",
-          "hash": "hyUJetJ7eu+alDPLlZRiIw=="
+          "hash": "04NJf41NUsUkCsfYIXRX0g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlLite.SqlLiteDatabase.html",
-          "hash": "uoAP4sTpRLm0tj9pAEerQQ=="
+          "hash": "GOn3AYNdN3LvZ5D19pvLgg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -192,7 +192,7 @@
           "hash": "cXij3RBYsnsQIsgYhFLjEA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "tMavtYTYzrQeNBvntE9zxA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlServer.SqlServerDatabase.html",
-          "hash": "er/oz68VQLvbYZPQRIKGVA=="
+          "hash": "xxRmZoJZzVHefWlj2SbRcQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -228,7 +228,7 @@
           "hash": "xHEjC2ttTTgKw2+Cuhe1pg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -240,7 +240,7 @@
           "hash": "WNTzPDIJ4UcMbENaAOF4uA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/intro.html",
-          "hash": "fB1IhS3P4cvVjpf+sb/6iw=="
+          "hash": "YhyThzQFlepf01WCnQfCIw=="
         }
       },
       "is_incremental": false,
@@ -323,17 +323,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }

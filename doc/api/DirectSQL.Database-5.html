@@ -115,7 +115,6 @@
   <h5 id="DirectSQL_Database_5_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class Database&lt;C, T, CMD, R, P&gt;
-
     where C : IDbConnection where T : IDbTransaction where CMD : IDbCommand where R : IDataReader where P : IDataParameter, new()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
@@ -623,6 +622,244 @@
         <td><span class="xref">System.Object</span></td>
         <td><p>result of sql</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/7k8m/DirectSQL/new/master/apiSpec/new?filename=DirectSQL_Database_5_LoadSqlResult_System_String__0__1_.md&amp;value=---%0Auid%3A%20DirectSQL.Database%605.LoadSqlResult(System.String%2C%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/7k8m/DirectSQL/blob/master/DirectSQL/Database.cs/#L399">View Source</a>
+  </span>
+  <a id="DirectSQL_Database_5_LoadSqlResult_" data-uid="DirectSQL.Database`5.LoadSqlResult*"></a>
+  <h4 id="DirectSQL_Database_5_LoadSqlResult_System_String__0__1_" data-uid="DirectSQL.Database`5.LoadSqlResult(System.String,`0,`1)">LoadSqlResult(String, C, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static dynamic[] LoadSqlResult(string sql, C connection, T transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">C</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/7k8m/DirectSQL/new/master/apiSpec/new?filename=DirectSQL_Database_5_LoadSqlResult_System_String_System_ValueTuple_System_String_System_Object_____0__1_.md&amp;value=---%0Auid%3A%20DirectSQL.Database%605.LoadSqlResult(System.String%2CSystem.ValueTuple%7BSystem.String%2CSystem.Object%7D%5B%5D%2C%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/7k8m/DirectSQL/blob/master/DirectSQL/Database.cs/#L390">View Source</a>
+  </span>
+  <a id="DirectSQL_Database_5_LoadSqlResult_" data-uid="DirectSQL.Database`5.LoadSqlResult*"></a>
+  <h4 id="DirectSQL_Database_5_LoadSqlResult_System_String_System_ValueTuple_System_String_System_Object_____0__1_" data-uid="DirectSQL.Database`5.LoadSqlResult(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)">LoadSqlResult(String, (String, Object)[], C, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static dynamic[] LoadSqlResult(string sql, (string, object)[] parameters, C connection, T transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">C</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/7k8m/DirectSQL/new/master/apiSpec/new?filename=DirectSQL_Database_5_LoadSqlResultAsync_System_String__0__1_.md&amp;value=---%0Auid%3A%20DirectSQL.Database%605.LoadSqlResultAsync(System.String%2C%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/7k8m/DirectSQL/blob/master/DirectSQL/Database.cs/#L420">View Source</a>
+  </span>
+  <a id="DirectSQL_Database_5_LoadSqlResultAsync_" data-uid="DirectSQL.Database`5.LoadSqlResultAsync*"></a>
+  <h4 id="DirectSQL_Database_5_LoadSqlResultAsync_System_String__0__1_" data-uid="DirectSQL.Database`5.LoadSqlResultAsync(System.String,`0,`1)">LoadSqlResultAsync(String, C, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;dynamic[]&gt; LoadSqlResultAsync(string sql, C connection, T transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">C</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Object</span>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/7k8m/DirectSQL/new/master/apiSpec/new?filename=DirectSQL_Database_5_LoadSqlResultAsync_System_String_System_ValueTuple_System_String_System_Object_____0__1_.md&amp;value=---%0Auid%3A%20DirectSQL.Database%605.LoadSqlResultAsync(System.String%2CSystem.ValueTuple%7BSystem.String%2CSystem.Object%7D%5B%5D%2C%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/7k8m/DirectSQL/blob/master/DirectSQL/Database.cs/#L407">View Source</a>
+  </span>
+  <a id="DirectSQL_Database_5_LoadSqlResultAsync_" data-uid="DirectSQL.Database`5.LoadSqlResultAsync*"></a>
+  <h4 id="DirectSQL_Database_5_LoadSqlResultAsync_System_String_System_ValueTuple_System_String_System_Object_____0__1_" data-uid="DirectSQL.Database`5.LoadSqlResultAsync(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)">LoadSqlResultAsync(String, (String, Object)[], C, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;dynamic[]&gt; LoadSqlResultAsync(string sql, (string, object)[] parameters, C connection, T transaction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sql</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">C</span></td>
+        <td><span class="parametername">connection</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">transaction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Object</span>[]&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
