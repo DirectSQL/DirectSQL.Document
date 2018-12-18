@@ -97,13 +97,13 @@
     SqlLiteDatabase db = new SqlLiteDatabase(&quot;connectionString_to_yourdb&quot;);
     db.Process((connection, transaction) =&gt;
     {
-		dynamic[] resultArray =
-			SqlLiteDatabase
-			.LoadSqlResult(
-				&quot;select TEST_COL1,TEST_COL2 from TEST_TABLE&quot;,
-				connection,
-				transaction);
-
+        dynamic[] resultArray =
+            SqlLiteDatabase
+            .LoadSqlResult(
+                &quot;select TEST_COL1,TEST_COL2 from TEST_TABLE&quot;,
+                connection,
+                transaction);
+        
         Console.Out.WriteLine(&quot;TEST_VAL1:&quot; + resultArray[0].TEST_VAL1);
         Console.Out.WriteLine(&quot;TEST_VAL2:&quot; + resultArray[0].TEST_VAL2);
 
