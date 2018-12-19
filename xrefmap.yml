@@ -163,6 +163,40 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar
   nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar
   nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar
+- uid: DirectSQL.Database`5.LoadFormattableSqlResult(System.FormattableString,`0,`1)
+  name: LoadFormattableSqlResult(FormattableString, C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadFormattableSqlResult_System_FormattableString__0__1_
+  commentId: M:DirectSQL.Database`5.LoadFormattableSqlResult(System.FormattableString,`0,`1)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadFormattableSqlResult(System.FormattableString, C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadFormattableSqlResult(System.FormattableString, C, T)
+  nameWithType: Database<C, T, CMD, R, P>.LoadFormattableSqlResult(FormattableString, C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadFormattableSqlResult(FormattableString, C, T)
+- uid: DirectSQL.Database`5.LoadFormattableSqlResult*
+  name: LoadFormattableSqlResult
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadFormattableSqlResult_
+  commentId: Overload:DirectSQL.Database`5.LoadFormattableSqlResult
+  isSpec: "True"
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadFormattableSqlResult
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadFormattableSqlResult
+  nameWithType: Database<C, T, CMD, R, P>.LoadFormattableSqlResult
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadFormattableSqlResult
+- uid: DirectSQL.Database`5.LoadFormattableSqlResultAsync(System.FormattableString,`0,`1)
+  name: LoadFormattableSqlResultAsync(FormattableString, C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadFormattableSqlResultAsync_System_FormattableString__0__1_
+  commentId: M:DirectSQL.Database`5.LoadFormattableSqlResultAsync(System.FormattableString,`0,`1)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadFormattableSqlResultAsync(System.FormattableString, C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadFormattableSqlResultAsync(System.FormattableString, C, T)
+  nameWithType: Database<C, T, CMD, R, P>.LoadFormattableSqlResultAsync(FormattableString, C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadFormattableSqlResultAsync(FormattableString, C, T)
+- uid: DirectSQL.Database`5.LoadFormattableSqlResultAsync*
+  name: LoadFormattableSqlResultAsync
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadFormattableSqlResultAsync_
+  commentId: Overload:DirectSQL.Database`5.LoadFormattableSqlResultAsync
+  isSpec: "True"
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadFormattableSqlResultAsync
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadFormattableSqlResultAsync
+  nameWithType: Database<C, T, CMD, R, P>.LoadFormattableSqlResultAsync
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadFormattableSqlResultAsync
 - uid: DirectSQL.Database`5.LoadSqlResult(System.String,`0,`1)
   name: LoadSqlResult(String, C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResult_System_String__0__1_
