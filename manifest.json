@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Database-5.html",
-          "hash": "zTnFn9lHNOTbFjHRRrTmPQ=="
+          "hash": "ar1ZqYKxFaqVQbTYKBU4CQ=="
         }
       },
       "is_incremental": false,
@@ -149,11 +149,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/DirectSQL.OdbcServer.OdbcDatabase.yml",
+      "source_relative_path": "doc/api/DirectSQL.Odbc.OdbcDatabase.yml",
       "output": {
         ".html": {
-          "relative_path": "doc/api/DirectSQL.OdbcServer.OdbcDatabase.html",
-          "hash": "nri+RrVB4JIKohvAb5t9QQ=="
+          "relative_path": "doc/api/DirectSQL.Odbc.OdbcDatabase.html",
+          "hash": "Y4vzn0Eu1a29BOcweVnpaQ=="
         }
       },
       "is_incremental": false,
@@ -161,11 +161,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "doc/api/DirectSQL.OdbcServer.yml",
+      "source_relative_path": "doc/api/DirectSQL.Odbc.yml",
       "output": {
         ".html": {
-          "relative_path": "doc/api/DirectSQL.OdbcServer.html",
-          "hash": "UUIMjOHRuNCjM63frSH75w=="
+          "relative_path": "doc/api/DirectSQL.Odbc.html",
+          "hash": "Jas8bZDHGXFh6VO3dX0iwQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/toc.html",
-          "hash": "QT6xCRoZh5zH6MI3yVgopA=="
+          "hash": "6pK9qOJOdv7q3u3mI1woCQ=="
         }
       },
       "is_incremental": false,
@@ -352,11 +352,11 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         }
