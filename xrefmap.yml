@@ -808,6 +808,38 @@ references:
   commentId: N:DirectSQL.SqlServer
   fullName: DirectSQL.SqlServer
   nameWithType: DirectSQL.SqlServer
+- uid: DirectSQL.SqlServer.OdbcDatabase
+  name: OdbcDatabase
+  href: doc/api/DirectSQL.SqlServer.OdbcDatabase.html
+  commentId: T:DirectSQL.SqlServer.OdbcDatabase
+  fullName: DirectSQL.SqlServer.OdbcDatabase
+  nameWithType: OdbcDatabase
+- uid: DirectSQL.SqlServer.OdbcDatabase.#ctor(System.String)
+  name: OdbcDatabase(String)
+  href: doc/api/DirectSQL.SqlServer.OdbcDatabase.html#DirectSQL_SqlServer_OdbcDatabase__ctor_System_String_
+  commentId: M:DirectSQL.SqlServer.OdbcDatabase.#ctor(System.String)
+  fullName: DirectSQL.SqlServer.OdbcDatabase.OdbcDatabase(System.String)
+  nameWithType: OdbcDatabase.OdbcDatabase(String)
+- uid: DirectSQL.SqlServer.OdbcDatabase.#ctor*
+  name: OdbcDatabase
+  href: doc/api/DirectSQL.SqlServer.OdbcDatabase.html#DirectSQL_SqlServer_OdbcDatabase__ctor_
+  commentId: Overload:DirectSQL.SqlServer.OdbcDatabase.#ctor
+  isSpec: "True"
+  fullName: DirectSQL.SqlServer.OdbcDatabase.OdbcDatabase
+  nameWithType: OdbcDatabase.OdbcDatabase
+- uid: DirectSQL.SqlServer.OdbcDatabase.CreateConnection
+  name: CreateConnection()
+  href: doc/api/DirectSQL.SqlServer.OdbcDatabase.html#DirectSQL_SqlServer_OdbcDatabase_CreateConnection
+  commentId: M:DirectSQL.SqlServer.OdbcDatabase.CreateConnection
+  fullName: DirectSQL.SqlServer.OdbcDatabase.CreateConnection()
+  nameWithType: OdbcDatabase.CreateConnection()
+- uid: DirectSQL.SqlServer.OdbcDatabase.CreateConnection*
+  name: CreateConnection
+  href: doc/api/DirectSQL.SqlServer.OdbcDatabase.html#DirectSQL_SqlServer_OdbcDatabase_CreateConnection_
+  commentId: Overload:DirectSQL.SqlServer.OdbcDatabase.CreateConnection
+  isSpec: "True"
+  fullName: DirectSQL.SqlServer.OdbcDatabase.CreateConnection
+  nameWithType: OdbcDatabase.CreateConnection
 - uid: DirectSQL.SqlServer.SqlServerDatabase
   name: SqlServerDatabase
   href: doc/api/DirectSQL.SqlServer.SqlServerDatabase.html

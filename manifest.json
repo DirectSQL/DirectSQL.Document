@@ -12,7 +12,7 @@
           "hash": "oD8ppbRQS9bLecUsoCjjcQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "mlePbke+Wdv08XUmv6b7FQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "yFhTXitw+l8D6H7UTlv+2g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Database-5.html",
-          "hash": "1Vo14Eb4eCDlTonFXjbw7g=="
+          "hash": "G3Egrf7HJLpLKmV64D4DKw=="
         }
       },
       "is_incremental": false,
@@ -96,7 +96,7 @@
           "hash": "rrZ79eMaIPHRqtTfxjSUzw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "6QXQaNaWMiRIBt3t+C8daw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -168,7 +168,7 @@
           "hash": "04NJf41NUsUkCsfYIXRX0g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -209,6 +209,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "doc/api/DirectSQL.SqlServer.OdbcDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "doc/api/DirectSQL.SqlServer.OdbcDatabase.html",
+          "hash": "7rw1tUJqdTGK/fZZenHe+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "doc/api/DirectSQL.SqlServer.SqlServerDatabase.yml",
       "output": {
         ".html": {
@@ -225,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlServer.html",
-          "hash": "xHEjC2ttTTgKw2+Cuhe1pg=="
+          "hash": "LJPVIhgEu37sYTzzpItbAg=="
         }
       },
       "is_incremental": false,
@@ -252,7 +264,7 @@
           "hash": "oxLm+RPY4nk9p7mG2JlE3g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/toc.html",
-          "hash": "S9drT01L16obp1FEmQB/og=="
+          "hash": "jAI5ooeMryQplzAL4TfoLQ=="
         }
       },
       "is_incremental": false,
