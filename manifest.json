@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/dev/DirectSQL/DirectSQL/DirectSQL",
+  "source_base_path": "C:/dev/DirectSQL/DirectSQL",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.AsyncConnectExecution-1.html",
-          "hash": "oD8ppbRQS9bLecUsoCjjcQ=="
+          "hash": "iymv/nQT8rD53ZlIe+CkFA=="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.AsyncSqlExecution-2.html",
-          "hash": "mlePbke+Wdv08XUmv6b7FQ=="
+          "hash": "H7WE8Vhai5VyBXYD4729aA=="
         }
       },
       "is_incremental": true,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.ConnectExecution-1.html",
-          "hash": "yFhTXitw+l8D6H7UTlv+2g=="
+          "hash": "Z9OBWdMDgX8jGwJHpN+JrQ=="
         }
       },
       "is_incremental": true,
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.DB2.DB2Database.html",
-          "hash": "WTeIXHpIRFUwuLYkN0Mw5g=="
+          "hash": "kZqlvw7lxrgRjQXoZQ6LmA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.DB2.html",
-          "hash": "tEByDbGYg1MuHrSmgI/P2w=="
+          "hash": "UWTiLrOq7joo8l61nAkvGA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Database-5.SqlResult.html",
-          "hash": "QKYNMTL/+t7vWEUVUG3g/w=="
+          "hash": "hYr1Xv3UqwF3w1yDi7GfpA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Database-5.html",
-          "hash": "ar1ZqYKxFaqVQbTYKBU4CQ=="
+          "hash": "CflNaFEaG65KLVmRA6BEIw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.DatabaseException.html",
-          "hash": "rrZ79eMaIPHRqtTfxjSUzw=="
+          "hash": "eRwEgisFb50BUvKlSDoY8A=="
         }
       },
       "is_incremental": true,
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.MySql.MySqlDatabase.html",
-          "hash": "U66RHRTbG6aF1d/AtIHBkg=="
+          "hash": "hz7Z7BRChCb4rrdjRH4Uag=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.MySql.html",
-          "hash": "/4gFbaur1R0WlgIG2cayaw=="
+          "hash": "c2iGlpjRGUR6a3KYCxK59A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Npgsql.NpgsqlDatabase.html",
-          "hash": "FKYQjgk2I4xBP5BYPGD4Wg=="
+          "hash": "K4rIGqDwprwBkGwOyhfyDw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Npgsql.html",
-          "hash": "idjif9SOoyRAjpWTcABdlg=="
+          "hash": "iLMYCl6Hf5WS2EDBfoai4w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Odbc.OdbcDatabase.html",
-          "hash": "Y4vzn0Eu1a29BOcweVnpaQ=="
+          "hash": "EYEuLqNjyWUgvuTZ7lK9PQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.Odbc.html",
-          "hash": "Jas8bZDHGXFh6VO3dX0iwQ=="
+          "hash": "dzFFDOb0LdmYmy9NaElPvQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.ReadSqlResult-5.html",
-          "hash": "6QXQaNaWMiRIBt3t+C8daw=="
+          "hash": "1RF63tm1sI90LbCHxOVv1w=="
         }
       },
       "is_incremental": true,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlExecution-2.html",
-          "hash": "04NJf41NUsUkCsfYIXRX0g=="
+          "hash": "yQ1eiLl1w+taZ3IgUbsMvQ=="
         }
       },
       "is_incremental": true,
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlLite.SqlLiteDatabase.html",
-          "hash": "8LCrBuouJTVGhG9a0dGBiQ=="
+          "hash": "emg0G2cL6xYx8UuONJCYMg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlLite.html",
-          "hash": "cXij3RBYsnsQIsgYhFLjEA=="
+          "hash": "9T1VpnxF3SkZKd7KpW8HZQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlResult-5.html",
-          "hash": "tMavtYTYzrQeNBvntE9zxA=="
+          "hash": "2Jrh20Q7rROw8fPkJfM0sQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlServer.SqlServerDatabase.html",
-          "hash": "MFwhr0bkwsJp+rWowLIa+A=="
+          "hash": "0l0xKabE5TTC82cFOOpDwg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.SqlServer.html",
-          "hash": "xHEjC2ttTTgKw2+Cuhe1pg=="
+          "hash": "nSk6pSk6qIF5PRFMl0pcTw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/DirectSQL.html",
-          "hash": "WNTzPDIJ4UcMbENaAOF4uA=="
+          "hash": "2WvcTQ+Th8SAKlvWrduOng=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/index.html",
-          "hash": "oxLm+RPY4nk9p7mG2JlE3g=="
+          "hash": "a5Tdwuw+XXTnf5o25PPFbQ=="
         }
       },
       "is_incremental": true,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/api/toc.html",
-          "hash": "6pK9qOJOdv7q3u3mI1woCQ=="
+          "hash": "yiitYPdhI4uPIVqR2rGjTg=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/intro.html",
-          "hash": "kZHmOO4Zzw8J7SqoHZ7Hog=="
+          "hash": "i8Ga8NTrim11InevB9/zsA=="
         }
       },
       "is_incremental": true,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+          "hash": "gB8AESyvNru97tzIZofEEg=="
         }
       },
       "is_incremental": false,
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "doc/index.html",
-          "hash": "fiXsLSLd5He0tdMchht+Lg=="
+          "hash": "pwg5QLrTQKR8XdIYux2dpg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "doc/toc.html",
-          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
         }
       },
       "is_incremental": false,
@@ -344,21 +344,29 @@
     {
       "status": {
         "can_incremental": true,
-        "incrementalPhase": "build"
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 22,
+          "skipped_file_count": 13
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
@@ -366,7 +374,9 @@
       "status": {
         "can_incremental": true,
         "details": "Can support incremental post processing.",
-        "incrementalPhase": "postProcessing"
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {}
     }

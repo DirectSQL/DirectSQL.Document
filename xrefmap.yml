@@ -43,6 +43,24 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P)
   nameWithType: Database<C, T, CMD, R, P>
   nameWithType.vb: Database(Of C, T, CMD, R, P)
+- uid: DirectSQL.Database`5.ConvertToDbParameter(System.ValueTuple{System.String,System.Object}[])
+  name: ConvertToDbParameter((String name, Object value)[])
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ConvertToDbParameter_System_ValueTuple_System_String_System_Object____
+  commentId: M:DirectSQL.Database`5.ConvertToDbParameter(System.ValueTuple{System.String,System.Object}[])
+  name.vb: ConvertToDbParameter((name As String, value As Object)())
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ConvertToDbParameter(System.ValueTuple<System.String, System.Object>[])
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ConvertToDbParameter(System.ValueTuple(Of System.String, System.Object)())
+  nameWithType: Database<C, T, CMD, R, P>.ConvertToDbParameter((String name, Object value)[])
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ConvertToDbParameter((name As String, value As Object)())
+- uid: DirectSQL.Database`5.ConvertToDbParameter*
+  name: ConvertToDbParameter
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ConvertToDbParameter_
+  commentId: Overload:DirectSQL.Database`5.ConvertToDbParameter
+  isSpec: "True"
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ConvertToDbParameter
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ConvertToDbParameter
+  nameWithType: Database<C, T, CMD, R, P>.ConvertToDbParameter
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ConvertToDbParameter
 - uid: DirectSQL.Database`5.CreateConnection
   name: CreateConnection()
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_CreateConnection
@@ -68,6 +86,14 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).CreateParameter(System.String, System.Object)
   nameWithType: Database<C, T, CMD, R, P>.CreateParameter(String, Object)
   nameWithType.vb: Database(Of C, T, CMD, R, P).CreateParameter(String, Object)
+- uid: DirectSQL.Database`5.CreateParameter(System.String,System.Object,DbType)
+  name: CreateParameter(String, Object, DbType)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_CreateParameter_System_String_System_Object_DbType_
+  commentId: M:DirectSQL.Database`5.CreateParameter(System.String,System.Object,DbType)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.CreateParameter(System.String, System.Object, DbType)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).CreateParameter(System.String, System.Object, DbType)
+  nameWithType: Database<C, T, CMD, R, P>.CreateParameter(String, Object, DbType)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).CreateParameter(String, Object, DbType)
 - uid: DirectSQL.Database`5.CreateParameter*
   name: CreateParameter
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_CreateParameter_
@@ -77,6 +103,14 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).CreateParameter
   nameWithType: Database<C, T, CMD, R, P>.CreateParameter
   nameWithType.vb: Database(Of C, T, CMD, R, P).CreateParameter
+- uid: DirectSQL.Database`5.ExecuteFormattableNonQuery(System.FormattableString,`0)
+  name: ExecuteFormattableNonQuery(FormattableString, C)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteFormattableNonQuery_System_FormattableString__0_
+  commentId: M:DirectSQL.Database`5.ExecuteFormattableNonQuery(System.FormattableString,`0)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteFormattableNonQuery(System.FormattableString, C)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteFormattableNonQuery(System.FormattableString, C)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteFormattableNonQuery(FormattableString, C)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteFormattableNonQuery(FormattableString, C)
 - uid: DirectSQL.Database`5.ExecuteFormattableNonQuery(System.FormattableString,`0,`1)
   name: ExecuteFormattableNonQuery(FormattableString, C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteFormattableNonQuery_System_FormattableString__0__1_
@@ -94,6 +128,14 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteFormattableNonQuery
   nameWithType: Database<C, T, CMD, R, P>.ExecuteFormattableNonQuery
   nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteFormattableNonQuery
+- uid: DirectSQL.Database`5.ExecuteFormattableScalar(System.FormattableString,`0)
+  name: ExecuteFormattableScalar(FormattableString, C)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteFormattableScalar_System_FormattableString__0_
+  commentId: M:DirectSQL.Database`5.ExecuteFormattableScalar(System.FormattableString,`0)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteFormattableScalar(System.FormattableString, C)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteFormattableScalar(System.FormattableString, C)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteFormattableScalar(FormattableString, C)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteFormattableScalar(FormattableString, C)
 - uid: DirectSQL.Database`5.ExecuteFormattableScalar(System.FormattableString,`0,`1)
   name: ExecuteFormattableScalar(FormattableString, C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteFormattableScalar_System_FormattableString__0__1_
@@ -111,6 +153,14 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteFormattableScalar
   nameWithType: Database<C, T, CMD, R, P>.ExecuteFormattableScalar
   nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteFormattableScalar
+- uid: DirectSQL.Database`5.ExecuteNonQuery(System.String,`0)
+  name: ExecuteNonQuery(String, C)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteNonQuery_System_String__0_
+  commentId: M:DirectSQL.Database`5.ExecuteNonQuery(System.String,`0)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteNonQuery(System.String, C)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteNonQuery(System.String, C)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteNonQuery(String, C)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteNonQuery(String, C)
 - uid: DirectSQL.Database`5.ExecuteNonQuery(System.String,`0,`1)
   name: ExecuteNonQuery(String, C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteNonQuery_System_String__0__1_
@@ -119,6 +169,15 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteNonQuery(System.String, C, T)
   nameWithType: Database<C, T, CMD, R, P>.ExecuteNonQuery(String, C, T)
   nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteNonQuery(String, C, T)
+- uid: DirectSQL.Database`5.ExecuteNonQuery(System.String,System.ValueTuple{System.String,System.Object}[],`0)
+  name: ExecuteNonQuery(String, (String name, Object value)[], C)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteNonQuery_System_String_System_ValueTuple_System_String_System_Object_____0_
+  commentId: M:DirectSQL.Database`5.ExecuteNonQuery(System.String,System.ValueTuple{System.String,System.Object}[],`0)
+  name.vb: ExecuteNonQuery(String, (name As String, value As Object)(), C)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteNonQuery(System.String, System.ValueTuple<System.String, System.Object>[], C)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteNonQuery(System.String, System.ValueTuple(Of System.String, System.Object)(), C)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteNonQuery(String, (String name, Object value)[], C)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteNonQuery(String, (name As String, value As Object)(), C)
 - uid: DirectSQL.Database`5.ExecuteNonQuery(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
   name: ExecuteNonQuery(String, (String name, Object value)[], C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteNonQuery_System_String_System_ValueTuple_System_String_System_Object_____0__1_
@@ -137,6 +196,14 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteNonQuery
   nameWithType: Database<C, T, CMD, R, P>.ExecuteNonQuery
   nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteNonQuery
+- uid: DirectSQL.Database`5.ExecuteScalar(System.String,`0)
+  name: ExecuteScalar(String, C)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalar_System_String__0_
+  commentId: M:DirectSQL.Database`5.ExecuteScalar(System.String,`0)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalar(System.String, C)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar(System.String, C)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar(String, C)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar(String, C)
 - uid: DirectSQL.Database`5.ExecuteScalar(System.String,`0,`1)
   name: ExecuteScalar(String, C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalar_System_String__0__1_
@@ -145,6 +212,33 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar(System.String, C, T)
   nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar(String, C, T)
   nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar(String, C, T)
+- uid: DirectSQL.Database`5.ExecuteScalar(System.String,`4[],`0)
+  name: ExecuteScalar(String, P[], C)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalar_System_String__4____0_
+  commentId: M:DirectSQL.Database`5.ExecuteScalar(System.String,`4[],`0)
+  name.vb: ExecuteScalar(String, P(), C)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalar(System.String, P[], C)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar(System.String, P(), C)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar(String, P[], C)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar(String, P(), C)
+- uid: DirectSQL.Database`5.ExecuteScalar(System.String,`4[],`0,`1)
+  name: ExecuteScalar(String, P[], C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalar_System_String__4____0__1_
+  commentId: M:DirectSQL.Database`5.ExecuteScalar(System.String,`4[],`0,`1)
+  name.vb: ExecuteScalar(String, P(), C, T)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalar(System.String, P[], C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar(System.String, P(), C, T)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar(String, P[], C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar(String, P(), C, T)
+- uid: DirectSQL.Database`5.ExecuteScalar(System.String,System.ValueTuple{System.String,System.Object}[],`0)
+  name: ExecuteScalar(String, (String name, Object value)[], C)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalar_System_String_System_ValueTuple_System_String_System_Object_____0_
+  commentId: M:DirectSQL.Database`5.ExecuteScalar(System.String,System.ValueTuple{System.String,System.Object}[],`0)
+  name.vb: ExecuteScalar(String, (name As String, value As Object)(), C)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalar(System.String, System.ValueTuple<System.String, System.Object>[], C)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar(System.String, System.ValueTuple(Of System.String, System.Object)(), C)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar(String, (String name, Object value)[], C)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar(String, (name As String, value As Object)(), C)
 - uid: DirectSQL.Database`5.ExecuteScalar(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
   name: ExecuteScalar(String, (String name, Object value)[], C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalar_System_String_System_ValueTuple_System_String_System_Object_____0__1_
@@ -163,6 +257,24 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar
   nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar
   nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar
+- uid: DirectSQL.Database`5.ExecuteScalarCore(System.String,`4[],`0,System.Object)
+  name: ExecuteScalarCore(String, P[], C, Object)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalarCore_System_String__4____0_System_Object_
+  commentId: M:DirectSQL.Database`5.ExecuteScalarCore(System.String,`4[],`0,System.Object)
+  name.vb: ExecuteScalarCore(String, P(), C, Object)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalarCore(System.String, P[], C, System.Object)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalarCore(System.String, P(), C, System.Object)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalarCore(String, P[], C, Object)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalarCore(String, P(), C, Object)
+- uid: DirectSQL.Database`5.ExecuteScalarCore*
+  name: ExecuteScalarCore
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalarCore_
+  commentId: Overload:DirectSQL.Database`5.ExecuteScalarCore
+  isSpec: "True"
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalarCore
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalarCore
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalarCore
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalarCore
 - uid: DirectSQL.Database`5.LoadFormattableSqlResult(System.FormattableString,`0,`1)
   name: LoadFormattableSqlResult(FormattableString, C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadFormattableSqlResult_System_FormattableString__0__1_
@@ -205,6 +317,15 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResult(System.String, C, T)
   nameWithType: Database<C, T, CMD, R, P>.LoadSqlResult(String, C, T)
   nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResult(String, C, T)
+- uid: DirectSQL.Database`5.LoadSqlResult(System.String,`4[],`0,`1)
+  name: LoadSqlResult(String, P[], C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResult_System_String__4____0__1_
+  commentId: M:DirectSQL.Database`5.LoadSqlResult(System.String,`4[],`0,`1)
+  name.vb: LoadSqlResult(String, P(), C, T)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadSqlResult(System.String, P[], C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResult(System.String, P(), C, T)
+  nameWithType: Database<C, T, CMD, R, P>.LoadSqlResult(String, P[], C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResult(String, P(), C, T)
 - uid: DirectSQL.Database`5.LoadSqlResult(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
   name: LoadSqlResult(String, (String, Object)[], C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResult_System_String_System_ValueTuple_System_String_System_Object_____0__1_
@@ -231,6 +352,15 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResultAsync(System.String, C, T)
   nameWithType: Database<C, T, CMD, R, P>.LoadSqlResultAsync(String, C, T)
   nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResultAsync(String, C, T)
+- uid: DirectSQL.Database`5.LoadSqlResultAsync(System.String,`4[],`0,`1)
+  name: LoadSqlResultAsync(String, P[], C, T)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResultAsync_System_String__4____0__1_
+  commentId: M:DirectSQL.Database`5.LoadSqlResultAsync(System.String,`4[],`0,`1)
+  name.vb: LoadSqlResultAsync(String, P(), C, T)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.LoadSqlResultAsync(System.String, P[], C, T)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).LoadSqlResultAsync(System.String, P(), C, T)
+  nameWithType: Database<C, T, CMD, R, P>.LoadSqlResultAsync(String, P[], C, T)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).LoadSqlResultAsync(String, P(), C, T)
 - uid: DirectSQL.Database`5.LoadSqlResultAsync(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1)
   name: LoadSqlResultAsync(String, (String, Object)[], C, T)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_LoadSqlResultAsync_System_String_System_ValueTuple_System_String_System_Object_____0__1_
@@ -312,6 +442,33 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Query(System.String, C, T, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
   nameWithType: Database<C, T, CMD, R, P>.Query(String, C, T, ReadSqlResult<R, CMD, T, C, P>)
   nameWithType.vb: Database(Of C, T, CMD, R, P).Query(String, C, T, ReadSqlResult(Of R, CMD, T, C, P))
+- uid: DirectSQL.Database`5.Query(System.String,`0,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name: Query(String, C, ReadSqlResult<R, CMD, T, C, P>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Query_System_String__0_DirectSQL_ReadSqlResult__3__2__1__0__4__
+  commentId: M:DirectSQL.Database`5.Query(System.String,`0,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name.vb: Query(String, C, ReadSqlResult(Of R, CMD, T, C, P))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Query(System.String, C, DirectSQL.ReadSqlResult<R, CMD, T, C, P>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Query(System.String, C, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
+  nameWithType: Database<C, T, CMD, R, P>.Query(String, C, ReadSqlResult<R, CMD, T, C, P>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Query(String, C, ReadSqlResult(Of R, CMD, T, C, P))
+- uid: DirectSQL.Database`5.Query(System.String,`4[],`0,`1,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name: Query(String, P[], C, T, ReadSqlResult<R, CMD, T, C, P>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Query_System_String__4____0__1_DirectSQL_ReadSqlResult__3__2__1__0__4__
+  commentId: M:DirectSQL.Database`5.Query(System.String,`4[],`0,`1,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name.vb: Query(String, P(), C, T, ReadSqlResult(Of R, CMD, T, C, P))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Query(System.String, P[], C, T, DirectSQL.ReadSqlResult<R, CMD, T, C, P>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Query(System.String, P(), C, T, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
+  nameWithType: Database<C, T, CMD, R, P>.Query(String, P[], C, T, ReadSqlResult<R, CMD, T, C, P>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Query(String, P(), C, T, ReadSqlResult(Of R, CMD, T, C, P))
+- uid: DirectSQL.Database`5.Query(System.String,`4[],`0,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name: Query(String, P[], C, ReadSqlResult<R, CMD, T, C, P>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Query_System_String__4____0_DirectSQL_ReadSqlResult__3__2__1__0__4__
+  commentId: M:DirectSQL.Database`5.Query(System.String,`4[],`0,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name.vb: Query(String, P(), C, ReadSqlResult(Of R, CMD, T, C, P))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Query(System.String, P[], C, DirectSQL.ReadSqlResult<R, CMD, T, C, P>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Query(System.String, P(), C, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
+  nameWithType: Database<C, T, CMD, R, P>.Query(String, P[], C, ReadSqlResult<R, CMD, T, C, P>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Query(String, P(), C, ReadSqlResult(Of R, CMD, T, C, P))
 - uid: DirectSQL.Database`5.Query(System.String,System.ValueTuple{System.String,System.Object}[],`0,`1,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
   name: Query(String, (String name, Object value)[], C, T, ReadSqlResult<R, CMD, T, C, P>)
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Query_System_String_System_ValueTuple_System_String_System_Object_____0__1_DirectSQL_ReadSqlResult__3__2__1__0__4__
@@ -321,6 +478,15 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Query(System.String, System.ValueTuple(Of System.String, System.Object)(), C, T, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
   nameWithType: Database<C, T, CMD, R, P>.Query(String, (String name, Object value)[], C, T, ReadSqlResult<R, CMD, T, C, P>)
   nameWithType.vb: Database(Of C, T, CMD, R, P).Query(String, (name As String, value As Object)(), C, T, ReadSqlResult(Of R, CMD, T, C, P))
+- uid: DirectSQL.Database`5.Query(System.String,System.ValueTuple{System.String,System.Object}[],`0,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name: Query(String, (String name, Object value)[], C, ReadSqlResult<R, CMD, T, C, P>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Query_System_String_System_ValueTuple_System_String_System_Object_____0_DirectSQL_ReadSqlResult__3__2__1__0__4__
+  commentId: M:DirectSQL.Database`5.Query(System.String,System.ValueTuple{System.String,System.Object}[],`0,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name.vb: Query(String, (name As String, value As Object)(), C, ReadSqlResult(Of R, CMD, T, C, P))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.Query(System.String, System.ValueTuple<System.String, System.Object>[], C, DirectSQL.ReadSqlResult<R, CMD, T, C, P>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).Query(System.String, System.ValueTuple(Of System.String, System.Object)(), C, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
+  nameWithType: Database<C, T, CMD, R, P>.Query(String, (String name, Object value)[], C, ReadSqlResult<R, CMD, T, C, P>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).Query(String, (name As String, value As Object)(), C, ReadSqlResult(Of R, CMD, T, C, P))
 - uid: DirectSQL.Database`5.Query*
   name: Query
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_Query_
@@ -339,6 +505,15 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).QueryFormattable(System.FormattableString, C, T, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
   nameWithType: Database<C, T, CMD, R, P>.QueryFormattable(FormattableString, C, T, ReadSqlResult<R, CMD, T, C, P>)
   nameWithType.vb: Database(Of C, T, CMD, R, P).QueryFormattable(FormattableString, C, T, ReadSqlResult(Of R, CMD, T, C, P))
+- uid: DirectSQL.Database`5.QueryFormattable(System.FormattableString,`0,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name: QueryFormattable(FormattableString, C, ReadSqlResult<R, CMD, T, C, P>)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_QueryFormattable_System_FormattableString__0_DirectSQL_ReadSqlResult__3__2__1__0__4__
+  commentId: M:DirectSQL.Database`5.QueryFormattable(System.FormattableString,`0,DirectSQL.ReadSqlResult{`3,`2,`1,`0,`4})
+  name.vb: QueryFormattable(FormattableString, C, ReadSqlResult(Of R, CMD, T, C, P))
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.QueryFormattable(System.FormattableString, C, DirectSQL.ReadSqlResult<R, CMD, T, C, P>)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).QueryFormattable(System.FormattableString, C, DirectSQL.ReadSqlResult(Of R, CMD, T, C, P))
+  nameWithType: Database<C, T, CMD, R, P>.QueryFormattable(FormattableString, C, ReadSqlResult<R, CMD, T, C, P>)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).QueryFormattable(FormattableString, C, ReadSqlResult(Of R, CMD, T, C, P))
 - uid: DirectSQL.Database`5.QueryFormattable*
   name: QueryFormattable
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_QueryFormattable_
@@ -676,6 +851,15 @@ references:
   fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResult(System.String, C, T)
   nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResult(String, C, T)
   nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResult(String, C, T)
+- uid: DirectSQL.SqlResult`5.LoadSqlResult(System.String,`4[],`3,`2)
+  name: LoadSqlResult(String, P[], C, T)
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResult_System_String__4____3__2_
+  commentId: M:DirectSQL.SqlResult`5.LoadSqlResult(System.String,`4[],`3,`2)
+  name.vb: LoadSqlResult(String, P(), C, T)
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.LoadSqlResult(System.String, P[], C, T)
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResult(System.String, P(), C, T)
+  nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResult(String, P[], C, T)
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResult(String, P(), C, T)
 - uid: DirectSQL.SqlResult`5.LoadSqlResult(System.String,System.ValueTuple{System.String,System.Object}[],`3,`2)
   name: LoadSqlResult(String, (String name, Object value)[], C, T)
   href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResult_System_String_System_ValueTuple_System_String_System_Object_____3__2_
@@ -702,6 +886,15 @@ references:
   fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync(System.String, C, T)
   nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResultAsync(String, C, T)
   nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync(String, C, T)
+- uid: DirectSQL.SqlResult`5.LoadSqlResultAsync(System.String,`4[],`3,`2)
+  name: LoadSqlResultAsync(String, P[], C, T)
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResultAsync_System_String__4____3__2_
+  commentId: M:DirectSQL.SqlResult`5.LoadSqlResultAsync(System.String,`4[],`3,`2)
+  name.vb: LoadSqlResultAsync(String, P(), C, T)
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.LoadSqlResultAsync(System.String, P[], C, T)
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync(System.String, P(), C, T)
+  nameWithType: SqlResult<R, CMD, T, C, P>.LoadSqlResultAsync(String, P[], C, T)
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).LoadSqlResultAsync(String, P(), C, T)
 - uid: DirectSQL.SqlResult`5.LoadSqlResultAsync(System.String,System.ValueTuple{System.String,System.Object}[],`3,`2)
   name: LoadSqlResultAsync(String, (String name, Object value)[], C, T)
   href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResultAsync_System_String_System_ValueTuple_System_String_System_Object_____3__2_
