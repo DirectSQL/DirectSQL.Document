@@ -257,15 +257,15 @@ references:
   fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalar
   nameWithType: Database<C, T, CMD, R, P>.ExecuteScalar
   nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalar
-- uid: DirectSQL.Database`5.ExecuteScalarCore(System.String,`4[],`0,System.Object)
-  name: ExecuteScalarCore(String, P[], C, Object)
-  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalarCore_System_String__4____0_System_Object_
-  commentId: M:DirectSQL.Database`5.ExecuteScalarCore(System.String,`4[],`0,System.Object)
-  name.vb: ExecuteScalarCore(String, P(), C, Object)
-  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalarCore(System.String, P[], C, System.Object)
-  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalarCore(System.String, P(), C, System.Object)
-  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalarCore(String, P[], C, Object)
-  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalarCore(String, P(), C, Object)
+- uid: DirectSQL.Database`5.ExecuteScalarCore(System.String,`4[],`0,IDbTransaction)
+  name: ExecuteScalarCore(String, P[], C, IDbTransaction)
+  href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalarCore_System_String__4____0_IDbTransaction_
+  commentId: M:DirectSQL.Database`5.ExecuteScalarCore(System.String,`4[],`0,IDbTransaction)
+  name.vb: ExecuteScalarCore(String, P(), C, IDbTransaction)
+  fullName: DirectSQL.Database<C, T, CMD, R, P>.ExecuteScalarCore(System.String, P[], C, IDbTransaction)
+  fullName.vb: DirectSQL.Database(Of C, T, CMD, R, P).ExecuteScalarCore(System.String, P(), C, IDbTransaction)
+  nameWithType: Database<C, T, CMD, R, P>.ExecuteScalarCore(String, P[], C, IDbTransaction)
+  nameWithType.vb: Database(Of C, T, CMD, R, P).ExecuteScalarCore(String, P(), C, IDbTransaction)
 - uid: DirectSQL.Database`5.ExecuteScalarCore*
   name: ExecuteScalarCore
   href: doc/api/DirectSQL.Database-5.html#DirectSQL_Database_5_ExecuteScalarCore_
