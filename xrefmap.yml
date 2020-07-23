@@ -612,6 +612,51 @@ references:
   isSpec: "True"
   fullName: DirectSQL.DB2.DB2Database.CreateConnection
   nameWithType: DB2Database.CreateConnection
+- uid: DirectSQL.EnumerableObject`1
+  name: EnumerableObject<T>
+  href: doc/api/DirectSQL.EnumerableObject-1.html
+  commentId: T:DirectSQL.EnumerableObject`1
+  name.vb: EnumerableObject(Of T)
+  fullName: DirectSQL.EnumerableObject<T>
+  fullName.vb: DirectSQL.EnumerableObject(Of T)
+  nameWithType: EnumerableObject<T>
+  nameWithType.vb: EnumerableObject(Of T)
+- uid: DirectSQL.EnumerableObject`1.GetEnumerator
+  name: GetEnumerator()
+  href: doc/api/DirectSQL.EnumerableObject-1.html#DirectSQL_EnumerableObject_1_GetEnumerator
+  commentId: M:DirectSQL.EnumerableObject`1.GetEnumerator
+  fullName: DirectSQL.EnumerableObject<T>.GetEnumerator()
+  fullName.vb: DirectSQL.EnumerableObject(Of T).GetEnumerator()
+  nameWithType: EnumerableObject<T>.GetEnumerator()
+  nameWithType.vb: EnumerableObject(Of T).GetEnumerator()
+- uid: DirectSQL.EnumerableObject`1.GetEnumerator*
+  name: GetEnumerator
+  href: doc/api/DirectSQL.EnumerableObject-1.html#DirectSQL_EnumerableObject_1_GetEnumerator_
+  commentId: Overload:DirectSQL.EnumerableObject`1.GetEnumerator
+  isSpec: "True"
+  fullName: DirectSQL.EnumerableObject<T>.GetEnumerator
+  fullName.vb: DirectSQL.EnumerableObject(Of T).GetEnumerator
+  nameWithType: EnumerableObject<T>.GetEnumerator
+  nameWithType.vb: EnumerableObject(Of T).GetEnumerator
+- uid: DirectSQL.EnumerableObject`1.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: doc/api/DirectSQL.EnumerableObject-1.html#DirectSQL_EnumerableObject_1_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:DirectSQL.EnumerableObject`1.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: DirectSQL.EnumerableObject<T>.System.Collections.IEnumerable.GetEnumerator()
+  fullName.vb: DirectSQL.EnumerableObject(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: EnumerableObject<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: EnumerableObject(Of T).System.Collections.IEnumerable.GetEnumerator()
+- uid: DirectSQL.EnumerableObject`1.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: doc/api/DirectSQL.EnumerableObject-1.html#DirectSQL_EnumerableObject_1_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:DirectSQL.EnumerableObject`1.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: DirectSQL.EnumerableObject<T>.System.Collections.IEnumerable.GetEnumerator
+  fullName.vb: DirectSQL.EnumerableObject(Of T).System.Collections.IEnumerable.GetEnumerator
+  nameWithType: EnumerableObject<T>.IEnumerable.GetEnumerator
+  nameWithType.vb: EnumerableObject(Of T).System.Collections.IEnumerable.GetEnumerator
 - uid: DirectSQL.MySql
   name: DirectSQL.MySql
   href: doc/api/DirectSQL.MySql.html
@@ -791,6 +836,14 @@ references:
   fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P)
   nameWithType: SqlResult<R, CMD, T, C, P>
   nameWithType.vb: SqlResult(Of R, CMD, T, C, P)
+- uid: DirectSQL.SqlResult`5.AsEnumerable
+  name: AsEnumerable()
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_AsEnumerable
+  commentId: M:DirectSQL.SqlResult`5.AsEnumerable
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.AsEnumerable()
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).AsEnumerable()
+  nameWithType: SqlResult<R, CMD, T, C, P>.AsEnumerable()
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).AsEnumerable()
 - uid: DirectSQL.SqlResult`5.AsEnumerable*
   name: AsEnumerable
   href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_AsEnumerable_
@@ -843,6 +896,23 @@ references:
   fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).Dispose
   nameWithType: SqlResult<R, CMD, T, C, P>.Dispose
   nameWithType.vb: SqlResult(Of R, CMD, T, C, P).Dispose
+- uid: DirectSQL.SqlResult`5.GetEnumerator
+  name: GetEnumerator()
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_GetEnumerator
+  commentId: M:DirectSQL.SqlResult`5.GetEnumerator
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.GetEnumerator()
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).GetEnumerator()
+  nameWithType: SqlResult<R, CMD, T, C, P>.GetEnumerator()
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).GetEnumerator()
+- uid: DirectSQL.SqlResult`5.GetEnumerator*
+  name: GetEnumerator
+  href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_GetEnumerator_
+  commentId: Overload:DirectSQL.SqlResult`5.GetEnumerator
+  isSpec: "True"
+  fullName: DirectSQL.SqlResult<R, CMD, T, C, P>.GetEnumerator
+  fullName.vb: DirectSQL.SqlResult(Of R, CMD, T, C, P).GetEnumerator
+  nameWithType: SqlResult<R, CMD, T, C, P>.GetEnumerator
+  nameWithType.vb: SqlResult(Of R, CMD, T, C, P).GetEnumerator
 - uid: DirectSQL.SqlResult`5.LoadSqlResult(System.String,`3,`2)
   name: LoadSqlResult(String, C, T)
   href: doc/api/DirectSQL.SqlResult-5.html#DirectSQL_SqlResult_5_LoadSqlResult_System_String__3__2_
